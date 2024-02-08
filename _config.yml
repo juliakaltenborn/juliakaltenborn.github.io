@@ -13,17 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Alex Hernandez-Garcia
-tagline: Machine learning and computational neuroscience
+title: Julia Kaltenborn
+tagline: Machine learning for climate modeling & cryospheric sciences
 email: alex.hernandez-garcia@mila.quebec
-twitter_username: alexhdezgcia
-github_username:  alexhernandezgarcia
-twitter:
-  - username: alexhdezgcia
-description: Alex Hernandez-Garcia is a postdoc at Mila (Montreal), working with Prof. Yoshua Bengio. He is interested in the fundamental aspects of learning, in both brains and machines, as well as in applications of machine learning for social good, like fighting climate change. 
-author: Alex Hernandez-Garcia
-url: https://alexhernandezgarcia.github.io
-logo: /assets/images/logo1.png
+twitter_username: JuliaKaltenborn
+github_username:  liellnima
+description: Julia Kaltenborn is a PhD student at McGill University & Mila - Quebec AI Institute under the supervision of Prof. David Rolnick. She uses ML for climate modeling and cryospheric sciences. She loves snow and ice and wants to protect the polar regions of our Earth.
+author: Julia Kaltenborn
+url: https://juliakaltenborn.github.io
+logo: /assets/images/icon.png
 
 # Reading Files
 include:
@@ -57,5 +55,5 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag 
+  - jekyll-seo-tag
   - jekyll-redirect-from
