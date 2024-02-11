@@ -1,0 +1,17 @@
+---
+layout: page
+title: Mountaineering
+permalink: /mountaineering
+---
+
+<div class="content">
+  Some words. Off the field.
+  Science support, mountaineering, mix of different things
+</div>
+
+<div class="columns is-multiline is-centered is-vcentered">
+  {% assign mountaineering-items = site.mountaineering | sort: 'year' | reverse %}
+  {% for item in mountaineering-items %}
+      {% include mountaineering-item.html %}
+  {% endfor %}
+</div>

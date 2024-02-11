@@ -1,0 +1,57 @@
+<div class="column is-full">
+  <link rel="stylesheet" href="/assets/css/mystyles.css">
+  <div class="card bm--card-equal-height">
+  <div class="card">
+    <div class="card-content">
+
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            {% if venue.logo %}
+            <img src="assets/images/venues/{{ venue.logo }}" alt="Logo of {{ venue.fullname }}">
+            {% else %}
+            <img src="assets/images/icon.png" alt="Placeholder Logo">
+            {% endif %}
+          </figure>
+        </div>
+
+        <div class="media-content">
+          <p class="title is-4">{{ venue.name }}</p>
+          <p class="subtitle is-5">{{ venue.fullname }} <br>
+            <a href="{{ venue.link }}"> {{ venue.linkname }}</a>
+            <p class="subtitle is-6">
+              {{ venue.start-date | date_to_string }} - {{ venue.end-date | date_to_string }}
+              <br>
+              <a>@{{ venue.location }}</a>
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="tags">
+        {% if venue.topics %}
+          {% for tag in venue.topics %}
+            <span class="tag is-light">{{ tag }}</span>
+          {% endfor %}
+        <!-- <br>
+        <a>@{{ venue.location }}</a> <br> {{ venue.start-date | date_to_string }} - {{ venue.end-date | date_to_string }}
+        <br> -->
+
+        {% endif %}
+        {% if venue.audience %}
+          {% for tag in venue.audience %}
+            <span class="tag is-warning">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
+        {% if venue.fees %}
+          <span class="tag is-primary">{{ venue.fees }}</span>
+        {% endif %}
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+</div>

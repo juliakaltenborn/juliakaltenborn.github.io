@@ -1,0 +1,36 @@
+---
+layout: main
+---
+<div class="content">
+  <link rel="stylesheet" href="/assets/css/mystyles.css">
+  <h1 class="title is-2">{{ page.title }}</h1>
+  <h2 class="subtitle is-4">{{ page.subtitle }}</h2>
+  {% if page.authors %}
+    <div class="content">
+      {% for author in page.authors %}
+        <span class="tag is-light">{{ author.name }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.publications %}
+  <div class="content">
+    <h3 class="is-size-6">Publications and Posters:</h3>
+    {% for pub in page.publications %}
+      <a class="tag is-info" href="{{ pub.link }}">{{ pub.name }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  {% if page.talks %}
+  <div class="content">
+    <h4 class="is-size-6">Talks: </h4>
+    {% for talk in page.talks %}
+      <a class="tag is-info" href="{{ talk.link }}">{{ talk.name }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>

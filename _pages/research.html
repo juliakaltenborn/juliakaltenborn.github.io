@@ -1,0 +1,15 @@
+---
+layout: page
+title: Research
+permalink: /research
+---
+<div class="content">
+  Please refer to my <a href="{{ site.url }}/cv/">CV</a> for selected publications, and to <a href="https://scholar.google.de/citations?user=pUAkKYsAAAAJ&hl=de&oi=ao">Google Scholar</a> for a full list of publications.<br>
+</div>
+
+<div class="columns is-multiline">
+{% assign research-items = site.projects | sort: 'order' | reverse %}
+{% for item in research-items %}
+    {% include research-item.html %}
+{% endfor %}
+</div>

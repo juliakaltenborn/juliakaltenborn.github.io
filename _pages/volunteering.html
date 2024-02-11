@@ -1,0 +1,16 @@
+---
+layout: page
+title: Volunteering
+permalink: /volunteering
+---
+
+<div class="content">
+  Some words. Greenpeace etc.
+</div>
+
+<div class="columns is-multiline is-centered is-vcentered">
+  {% assign volunteering-items = site.volunteering | sort: 'year' | reverse %}
+  {% for item in volunteering-items %}
+      {% include volunteering-item.html %}
+  {% endfor %}
+</div>

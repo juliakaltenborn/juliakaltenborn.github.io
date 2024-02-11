@@ -1,0 +1,57 @@
+<div class="column is-full">
+  <link rel="stylesheet" href="/assets/css/mystyles.css">
+  <div class="card is-horizontal">
+    <div class="card-content">
+
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <a href="{{ item.url }}">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+          </a>
+        </figure>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <!-- <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48">
+            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">John Smith</p>
+          <p class="subtitle is-6">@johnsmith</p>
+        </div>
+      </div> -->
+
+      <div class="content">
+        <a href="{{ item.url }}">
+          <p class="title is-4">{{ item.name }}</p>
+          <p class="subtitle is-5">{{ item.description }}</p>
+        </a>
+        <p class="subtitle is-6"><a href="{{ item.website }}">{{ item.website }}</a> <br> <i> {{ item.role }} </i>
+          <br>
+          {% if item.awards %}
+            {% for tag in item.awards %}
+              <span class="tag is-primary is-light">{{ tag }}</span>
+            {% endfor %}
+          {% endif %}
+        </p>
+
+        {{ item.excerpt }}
+        <div class="buttons">
+          <a class="button is-link" href="{{ item.url }}">Read more</a>
+        </div>
+
+
+        {% for loc in item.location %}
+          <a>@{{ loc }}</a> &ensp;
+        {% endfor %}
+        <p>{{ item.start}} - {{ item.end }}</p>
+
+      </div>
+
+    </div>
+  </div>
+</div>

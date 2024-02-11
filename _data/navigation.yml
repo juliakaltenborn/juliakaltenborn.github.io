@@ -1,12 +1,14 @@
-- name: Publications
-  link: /publications.html
-- name: Teaching
-  link: /teaching.html
-- name: Blog
-  link: /blog.html
-- name: CV
-  link: /cv.html
-- name: Resources
-  link: /resources/publication-venues-ml.html
 - name: About me
   link: /about.html
+- name: Research
+  link: /research.html
+- name: ML4Cryo
+  link: /ml4cryo.html
+- name: Volunteering
+  link: /volunteering.html
+- name: Mountaineering
+  link: /mountaineering.html
+- name: CV
+  link: /cv.html
+- name: News
+  link: /news.html

@@ -3,8 +3,7 @@ layout: page
 title: News
 permalink: /news
 ---
-{% assign news = site.news | sort: 'date' | reverse %}
+{% assign news = site.data.news | sort: 'date' | reverse %}
 {% for item in news %}
   {% include news-item.html %}
 {% endfor %}
-  

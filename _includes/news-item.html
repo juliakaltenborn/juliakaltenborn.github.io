@@ -1,10 +1,12 @@
 <article class="media">
 	<div class="media-content">
 		<div class="content">
-      <h4><a href="{{ item.url }}">{{ item.date | date_to_string }} - {{ item.title }}</a></h4>
-      <p>
-        {{ item.content }}
-      </p>
+			<link rel="stylesheet" href="/assets/css/mystyles.css">
+      <h1 class="title is-size-5" style="color: #8A4D76">{{ item.date | date_to_string }} - {{ item.title }}</h1>
+			<md-block>
+					{{ item.content }}
+			</md-block>
+			<script type="module" src="https://md-block.verou.me/md-block.js"></script>
 		</div>
 	</div>
 </article>

@@ -1,0 +1,33 @@
+- name: NeurIPS
+  fullname: Conference on Neural Information Processing Systems
+  type: conference
+  link: https://neurips.cc/
+  linkname: neurips.cc
+  topics:
+    - machine learning
+    - computational neuroscience
+  audience:
+    - ml-audience
+    - cryo-audience
+  fees: XX USD
+  start-date: 2024-01-01
+  end-date: 2024-01-01
+  location: University XYZ, United States of America
+  logo:
+
+- name: NeurIPS
+  fullname: Conference on Neural Information Processing Systems
+  type: conference
+  link: https://neurips.cc/
+  linkname: neurips.cc
+  topics:
+    - machine learning
+    - computational neuroscience
+  audience:
+    - ml-audience
+    - cryo-audience
+  fees: XX USD
+  start-date: 2024-01-01
+  end-date: 2024-01-01
+  location: University XYZ, United States of America
+  logo:

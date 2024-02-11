@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Julia Kaltenborn
 tagline: Machine learning for climate modeling & cryospheric sciences
-email: alex.hernandez-garcia@mila.quebec
+email: julia.kaltenborn@mail.mcgill.ca
 twitter_username: JuliaKaltenborn
 github_username:  liellnima
 description: Julia Kaltenborn is a PhD student at McGill University & Mila - Quebec AI Institute under the supervision of Prof. David Rolnick. She uses ML for climate modeling and cryospheric sciences. She loves snow and ice and wants to protect the polar regions of our Earth.
@@ -36,6 +36,12 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  mountaineering:
+    output: true
+    permalink: /:collection/:path/
+  volunteering:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -49,6 +55,17 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "mountaineering"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "volunteering"
+    values:
+      layout: "page"
+
 
 # Build settings
 markdown: kramdown

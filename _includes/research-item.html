@@ -1,0 +1,68 @@
+<div class="column is-one-quarter-desktop is-half-tablet">
+  <link rel="stylesheet" href="/assets/css/mystyles.css">
+  <div class="card bm--card-equal-height">
+    <div class="card-content">
+      <a class="title is-5" href="{{ item.url }}"> {{item.title}}</a>
+      <br>
+      <p class="subtitle is-6">{{ item.subtitle }} </p>
+
+      <div class="content">
+        {% if item.authors %}
+        <details>
+          <summary><strong>Authors</strong></summary>
+            {% for author in item.authors %}
+              <span class="tag is-light">{{ author.name }}</span>
+            {% endfor %}
+        </details>
+        {% endif %}
+
+        {% if item.publications %}
+        <details>
+          <summary><strong>Publications</strong></summary>
+            {% for pub in item.publications %}
+              <a class="tag is-info" href="{{ pub.link }}">{{ pub.name }}</a>
+            {% endfor %}
+        </details>
+        {% endif %}
+
+        {% if item.talks %}
+        <details>
+          <summary><strong>Talks</strong></summary>
+            {% for talk in item.talks %}
+              <a class="tag is-info" href="{{ talk.link }}">{{ talk.name }}</a>
+            {% endfor %}
+        </details>
+        {% endif %}
+        <br>
+        <div class="buttons">
+          <a class="button is-link" href="{{ item.url }}">Read more</a>
+        </div>
+        </div>
+    </div>
+    <div class="card-image">
+      <figure class="image is-2by2">
+        <a href="{{ item.url }}">
+          <img src="assets/images/research/{{ item.image }}" alt="{{ item.alttext }}">
+        </a>
+      </figure>
+    </div>
+    <div class="card-content">
+    <div class="tags">
+      {% for tag in item.tags %}
+        <a class="tag is-light" href="{{ tag.link }}">{{ tag.name }}</a>
+      {% endfor %}
+      {% if item.status %}
+        {% if item.status == "in-progress" %}
+          <span class="tag is-warning">{{ item.status }}</span>
+        {% elsif item.status == "finished" %}
+          <span class="tag is-link">{{ item.status }}</span>
+        {% elsif item.status == "coming-soon" %}
+          <span class="tag is-warning is-light">{{ item.status }}</span>
+        {% else %}
+          <span class="tag is-primary is-light">{{ item.status }}</span>
+        {% endif %}
+      {% endif %}
+    </div>
+    </div>
+  </div>
+</div>

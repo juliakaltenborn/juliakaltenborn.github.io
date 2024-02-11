@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+@import "../julias-bulma/bulma/sass/utilities/initial-variables.sass";
+@import "../julias-bulma/bulma/sass/utilities/functions.sass";
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$marine-lighter: #a8d4c7;
+$marine-light: #75b79f;
+$marine-dark: #669e94;
+$marine-darker: #016163;
+$turq: #aecdc4;
+$neon-aqua: #85ffe7;
+$neon-aqua-light: #e5fffa;
+
+$warning: $marine-lighter;
+$success: $neon-aqua;
+$info: $neon-aqua-light;
+
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$black: $marine-darker;
+$black-bis: $marine-darker;
+$real-black: hsl(0, 0%, 4%);
+//$grey-darker: $marine-darker;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $marine-darker; //$pink;
+//$link-active: $pink;
+$link-hover: $pink;
+//$link-focus: $pink;
+//$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// navbar
+// phone
+$navbar-burger-color: $purple;
+//$navbar-color: $purple;
+// $navbar-background-color: $black;
+// general
+$navbar-item-color: $real-black;
+// $navbar-item-background-color: $black;
+$navbar-item-hover-color: $pink;
+//$navbar-item-hover-background-color: $beige-light;
+// $navbar-dropdown-arrow: #primary;
+// $navbar-tab-active-color: #primary;
+// $navbar-tab-active-background-color: $primary;
+//$navbar-dropdown-background-color: $primary;
+// $navbar-item-active-background-color: $black;
+// $navbar-tab-hover-background-color: $purple;
+// $navbar-tab-active-background-color: $white;
+
+// footer
+footer{
+    padding: 1.75rem 1rem 1.75rem !important;
+}
+
+
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+//$control-border-width: 2px;
+//$input-border-color: transparent;
+//$input-shadow: none;
+
+
+$size-8: 0.5rem !default;
+
+// Import only what you need from Bulma
+@import "../julias-bulma/bulma/sass/utilities/_all.sass";
+@import "../julias-bulma/bulma/sass/base/_all.sass";
+@import "../julias-bulma/bulma/sass/elements/button.sass";
+@import "../julias-bulma/bulma/sass/elements/tag.sass";
+@import "../julias-bulma/bulma/sass/elements/content.sass";
+@import "../julias-bulma/bulma/sass/elements/container.sass";
+@import "../julias-bulma/bulma/sass/elements/title.sass";
+@import "../julias-bulma/bulma/sass/form/_all.sass";
+@import "../julias-bulma/bulma/sass/components/navbar.sass";
+@import "../julias-bulma/bulma/sass/layout/hero.sass";
+@import "../julias-bulma/bulma/sass/layout/section.sass";
+
+.topFixedBar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $white;
+    height: 3.5rem;
+    z-index: 1;
+}
+
+.card {
+  height: 100%;
+}
+
+
+.card.is-horizontal {
+  flex-direction: row;
+  display: flex;
+  flex-basis: 50ex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  box-shadow: none;
+}
+
+.card.is-horizontal .card-image {
+  align-self: center;
+}
+
+.card.is-horizontal .image {
+  min-height: 100%;
+}
+
+.card.is-horizontal .card-content {
+  flex: 1;
+}
+
+.card.is-horizontal .card-content {
+  padding-left: 0.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 0.8em;
+}
+
+.card.is-horizontal {
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  .is-divider {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}

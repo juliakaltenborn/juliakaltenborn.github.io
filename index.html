@@ -3,17 +3,14 @@ layout: main
 title: Home
 ---
 <div class="columns is-vcentered">
-      <div class="column is-one-quarter content">
+      <div class="column is-one-third content">
         <figure class="image">
-          <img src="/assets/images/alex-photo-filters-bnw.png">
+          <img src="/assets/images/julia/bio_pic.jpg">
         </figure>
       </div>
-      <div class="column is-three-quarters content">
+      <div class="column is-two-thirds content">
         <h1>{{ site.title }}</h1>
         {% capture description %}{% include description.md %}{% endcapture %}
         {{ description | markdownify }}
-        <h4>Contact</h4>
-        <p>alex.hernandez-garcia at mila.quebec · alexhg at <a href="https://e.foundation/">e.email</a> · <a href="https://twitter.com/alexhdezgcia">Twitter</a></p>
-      </div>
+  </div>
 </div>
-

@@ -1,0 +1,19 @@
+---
+layout: page
+title: Machine Learning for Cryospheric Sciences
+permalink: /ml4cryo
+---
+<div class="content">
+  <h1 class="title is-size-4">Call for Collaboration</h1>
+  Some text. Link to GitHub page for the literature review project.
+  <h2 class="title is-size-4">Mailinglist</h2>
+  Some text.
+  <h3 class="title is-size-4">Venues</h3>
+</div>
+
+<div class="columns is-multiline">
+{% assign venues = site.data.ml4cryo-venues | sort: 'start-date' %}
+{% for venue in venues %}
+    {% include venue-item.html %}
+{% endfor %}
+</div>
