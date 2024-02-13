@@ -1,37 +1,19 @@
 Pronouns: [_she/her_](https://pronouns.org/she-her)\
 Location: [_Kanienʼkehá꞉ka / Ho-de-no-sau-nee-ga / Montreal_](https://native-land.ca/resources/territory-acknowledgement/)
 
-I am a **PhD Student** at McGill University and Mila - Quebec AI Institute under the academic advise of Prof. David Rolnick.
+I am a **PhD Student** at [McGill University](https://www.mcgill.ca/) and [Mila - Quebec AI Institute](https://mila.quebec/) under the academic advise of [Prof. David Rolnick](https://davidrolnick.com/). I fast-tracked from McGill's MSc Computer Science program and hold a BSc in Cognitive Science by the [Osnabrück University](https://www.ikw.uni-osnabrueck.de/startseite.html). During my BSc I studied abroad in Japan at [中央大学](https://www.chuo-u.ac.jp/english/), and back in Germany taught students old-fashioned AI - with Prolog. Later on, I forecasted river levels at the [INRS](https://inrs.ca/en/), classified snowpacks for [MOSAiC](https://mosaic-expedition.org/) (the largest polar expedition in history) at the [SLF](https://www.slf.ch/en/), and tracked cyclones at the [Climate Modeling Alliance](https://clima.caltech.edu/) at Caltech.
 
-I have fast-tracked from my Computer Science MSc at McGill in September 2023. I obtained a BSc in Cognitive Science at the Osnabrück University in Germany.
+My research focuses on:
 
-I did internships at the SLF and at Caltech and the INRS and studied in Tokyo (Chuo Daigaku) for one semester.
+- **Machine Learning for Climate Modeling**
+- **Machine Learning for Cryospheric Sciences**
 
-I have been a fellow of ....
+I have been a fellow of the [German Academic Scholarship Foundation](https://en.wikipedia.org/wiki/Studienstiftung) throughout my studies, received the [Mitacs Globalink Research Fellowship](https://www.mitacs.ca/our-programs/globalink-graduate-fellowship-students-postdocs/), and was a [DeepMind scholar](https://deepmind.google/about/education/).
 
-Beyond research, I have been engaged in Climate Action for most of my life, and co-founded the NGO Unser Dialog. Last but not least, I am proud participant of the Juneau Icefield Research Expedition and have traversed the icefield in summer 2023.
-
-### Research Objectives
-
-- Machine Learning for Climate Modeling
-- Machine Learning for Cryospheric Sciences
-
-Reach out if...
-
-Important to me: interdisciplinary, understanding both sides deeply, understanding your data, etc. + Science support!
-Open-source
-Combine with climate action
-inclusive
+Beyond research, I have been engaged in climate action for most of my life, and co-founded the NGO [Unser Dialog](https://unserdialog.org/). Last but not least, I am a proud participant of the [Juneau Icefield Research Expedition](https://juneauicefield.org/) and have traversed the icefield in 2023.
 
 
 #### Current Research
-ClimateSet / ML4Cryo / 
+Currently, I am a visiting PhD student at the [Snow- and Avalanche Research Institute](https://www.slf.ch/en/) in Davos, Switzerland, under the supervision of Tiziano Di Pietro and [Dr. Martin Schneebeli](https://www.slf.ch/de/mitarbeitende/schneebm/). I am involved in the data campaign planning, field work and ML development for **snowpack stability prediction**.
 
-Currently, I am a visiting PhD student at the Snow- and Avalanche Research Institute in Davos, Switzerland.
-working on...
-
-At Mila, I research **machine learning methods for accelerating scientific discoveries to tackle the climate crisis**. Currently, my focus is on developing generative methods, such as GFlowNets, and active learning algorithms for materials and drug discovery. In particular, I am working on multi-fidelity active learning methods, crystal structure generation, electrocatalyst design or molecular conformation sampling. I am also leading the development of [a GFlowNet python library](https://github.com/alexhernandezgarcia/gflownet), together with many collaborators. With [Victor Schmidt](https://vict0rs.ch/), [Sasha Luccioni](https://www.sashaluccioni.com/) and larger wonderful team, I also helped create [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com/), a website to help us visualise the impacts of climate change in our own backyard.
-
-
-#### My Research Vision
-Besides my research, I am a strong proponent of open science in the broadest sense, and I try to contribute to it with my actions and by getting involved in discussions about how to make science more inclusive, equitable, open, reproducible, transparent and environmentally conscious. Recently, I helped co-organise a [workshop on pre-registration in machine learning](https://preregister.science/) at NeurIPS 2021. At Mila, I am a Lab Representative and a member of the Equity, Diversity and Inclusion Committee.
+I also continue to work on **ClimateSet** ([A Large-Scale Climate Model Dataset for ML](https://climateset.github.io/)) and our endeavor to super-emulate CMIP6. Moreover, I am putting a team together for reviewing ML in Cryospheric sciences, and building a connected **ML4Cryo** community.
