@@ -2,7 +2,7 @@
 layout: project-page
 title: Snowdragon
 subtitle: Automatic classification of Snow Micro Pen profiles
-order: 1
+order: 3
 image: climateset-logo.png
 authors:
   - name: Julia Kaltenborn
