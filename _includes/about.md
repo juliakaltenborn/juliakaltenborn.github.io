@@ -1,5 +1,5 @@
 
-<!-- ### Bio
+<!-- ### Long Bio
 I was born in Europe, and spend my childhood and young adult years in Germany, Switzerland, and Italy. After not being able to decide what I want to study, because everything seemed to be incredibly interesting and captivating to me, ranging from physics to medicine, I settled for a study program called Cognitive Science at the Osnabrück University. There I got exposure to philosophy, neurology, mathematics and computer science. I realized quickly how much I enjoy coding and started focusing on all the AI and CS courses our program had to offer. I also enjoyed passing that knowledge along and become a TA for the introductory and more advanced AI & logic programing courses. I gained my first research experience at the INRS under the supervision of Taha Ouarda, learned a lot of unexpected and new things during my exchange semester in Tokyo, and supported Dr. Leonid Berov as a research assistant in teaching models to tell good stories (I am big fantasy book lover).
 
 Since I am 14 years old, I have been engaged in climate activism. While I am not engaging directly in the past years due to my time commitment for my research, I still feel very connected to the movement. I belief that we as scientists have a responsibility to engage in climate action and co-create systematic change.
@@ -16,7 +16,6 @@ Since January 2024, I am in Davos and involved in the model development, data ca
 <!--
 **I am encouraging everyone who has the possibility to engage in field work** and science support to learn where your data comes from, why ground truth is almost never ground truth, and connect with the communities you want to serve with your science. -->
 
-
 ### Research Vision
 I wander between the fields of machine learning and cryospheric sciences. While obtaining a formal education on ML, I am engaging in field-work on hands-on projects and collaborations to understand the data I am handling, where it comes from, what hardships come with retrieving this data and its socio-cultural context.
 
@@ -27,3 +26,13 @@ My research values are centered around **1) open science, 2) interdisciplinary c
 I am a queer, white woman from an academic household and a rich country (Germany), with a chronic blood condition. Where I can, I try to extend my privileges to others.
 
 Please feel always free to reach out to me **if you consider yourself as a member of an underrepresented or discriminated group** in the ML or cryospheric community and have specific requests of how I can support you. This can range from reviewing CVs and applications, to talking through questions such as "how can I find my way into those communities?". When you get in touch with me, there is no need to explain or justify in which way you consider yourself discriminated.
+
+### Bio
+I was born in Europe, and spend my childhood and young adult years in Germany, Switzerland, and Italy. I studied Cognitive Science in Osnabrück, because I was curious about everything and was exposed to the widest range of discplines, ranging from philosophy to computer science there. To my own surprise, coding and solving AI puzzles became quickly my personal highlights of my program. I was thrilled when I got the chance to be a TA for the two AI & logic programming courses. In order to figure out if I like research, I got involved in Dr. Leonid Berov's project to teach models how to tell good stories (also, I am a big fantasy book lover). I got more research exposure
+at the INRS in Quebec under the supervision of Prof. Taha Ouarda. In the same year, I also went to Tokyo for an exchange semester. It gave me the possibilty to learn how education and academia looks like in a culture that was new for me and to explore different ways of living. Following my passion for ice and snow for my bachelor thesis, I worked together with Dr. Amy Macfarlane, Dr. Viviane Clay, and Dr. Martin Schneebeli to segment and classify snowpack profiles with ML. Those measurements have been collected during MOSAiC, the largest polar expedition of our history. After my BSc thesis I worked for a couple of months with Dr. Lenka Novak under the supervision of Prof. Tapio Schneider to track extra-tropical cyclones with Fourier Neural Operators. At this point, I already knew I wanted to combine my joy for coding with my love for our planet Earth.
+
+To follow that path, I joined Prof. David Rolnick's lab as a research MSc student at McGill University & Mila in 2021. During that time I was focusing on emulating climate models with machine learning, resulting in the dataset paper ClimateSet. In 2023, I fast-tracked to the PhD program. I wanted to have the possibility to continue building my own research and to explore Machine Learning for Cryospheric Sciences in depth.
+
+Beyond research, being emerged, learning from and fighting for nature is most important to me. I have been involved in climate activism since I am 14 years old. Recently, in summer 2023, I traversed the Juneau icefield as part of field-educational expedition program. I did that to __learn from nature in nature__. It gave me access to and a whole new understanding of our cryosphere and changed my way of developing ML models for applied research substantially.
+
+Since January 2024, I am in Davos and involved in the model development, data campaign planning and data collection for a new measurement device engineered by Tiziano Di Pietro. Subsequently, we want to train a new ML model to predict snowpack stability in-situ.  We belief that this project has the potential to become highly impactful for in-situ avalanche warning teams.
