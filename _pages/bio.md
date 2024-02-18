@@ -6,14 +6,14 @@ permalink: /bio
 
 ## Short version
 
-Alex Hernandez-Garcia is a postdoc at Mila and the Université de Montréal. His current focus is on machine learning research for scientific applications to tackle the climate crisis. Previously, his research has explored the intersection between learning in both brains and machines, which continues to be a source of inspiration. 
+Julia Kaltenborn is a PhD student at McGill University and the Mila-Quebec AI Institute under the supervision of Prof. David Rolnick. Her research focuses on machine learning for climate and cryospheric sciences. She engages in hands-on field work to understand the needs of the cryo-community better and create more impactful ML tools. Put differently, she is developing ML models with the approach "learning from nature in nature".
 
-[(_Lire en français_)](bio-fr)
+<!-- [(_Lire en français_)](bio-fr) -->
+
+## Standard version
+
+Julia Kaltenborn is a PhD student at McGill University and the Mila-Quebec AI Institute. Her research is two-fold: She explores machine learning for climate model emulation, and cryospheric sciences. She focuses on creating ML resources that can be used cross-disciplinary, such as ClimateSet, and developing ML models that are actively used in the field, e.g., by MOSAiC, the largest polar expedition in history. Julia co-founded the NGO Unser Dialog, co-organized AI Helps Ukraine, and was a local Greenpeace leader in her youth. She has been a fellow of the German Academic Scholarship Foundation, received the Mitacs Globalink Research Fellowship, and was a DeepMind scholar. Last but not least, Julia was a member of the Juneau Icefield Research Expedition 2023 and has traversed the Juneau Icefield.
 
 ## Longer version
 
-Alex Hernandez-Garcia is a postdoctoral researcher at Mila, the Quebec Artificial Intelligence Institute, in Tiohtià:ke / Montréal, working with Prof. Yoshua Bengio and Prof. David Rolnick, since December 2020. He defended his PhD thesis in 2020 at the University of Osnabrück, as a fellow of the Marie Sklodowska-Curie ITN NexGenVis, with the supervision of Prof. Peter König. He obtained his B.Sc and M.Sc. at the University Carlos III of Madrid and during his PhD he was a visiting researcher at the University of Cambridge with Dr. Tim Kietzmann and at the Spinoza Center for Neuroimaging with Dr. Serge Dumoulin.
-
-His current main research interest is in the applications of machine learning to accelerate scientific discoveries to tackle the climate crisis. He helped create ThisClimateDoesNotExist.com, a website to help us visualise the impacts of climate change in our own backyard. Currently, his focus is materials discovery and molecular modelling with machine learning. In particular, he studies and applies Generative Flow Networks (GFlowNets) for probabilistic modelling and active learning for exploration. Examples of applications are catalyst design to improve the energy efficiency of hydrogen storage and other energy-intensive industrial processes, or discovery of solid electrolytes to make better and safer batteries. 
-
-More broadly, besides developing potentially impactful machine learning applications, since his graduate years Alex has been interested in brain-inspired deep learning and computational neuroscience. Alex is also a strong proponent of open science and is active in initiatives about how making science more inclusive, equitable, open, reproducible, transparent and environmentally conscious. At Mila, he has been a Lab Representative and a member of the Equity, Diversity and Inclusion Committee and the Sustainability Committee.
+*Will be added upon request.*
