@@ -17,7 +17,7 @@ sass --watch _sass/mystyles.scss:assets/css/mystyles.css
 Build it (needs to be done evertime you change configs, yamls, etc.)
 
 ```
-bundle exec jekyll build
+bundle exec jekyll build --watch
 ```
 
 Run website
