@@ -14,6 +14,6 @@ Beyond research, I have been engaged in climate action for most of my life, and 
 
 
 #### Current Research
-Currently, I am a visiting PhD student at the [Snow- and Avalanche Research Institute](https://www.slf.ch/en/) in Davos, Switzerland, under the supervision of Tiziano Di Pietro and [Dr. Martin Schneebeli](https://www.slf.ch/de/mitarbeitende/schneebm/). I am involved in the data campaign planning, field work and ML development for **snowpack stability prediction**.
+Currently, I am a visiting PhD student at the [Snow- and Avalanche Research Institute](https://www.slf.ch/en/) in Davos, Switzerland, under the supervision of Tiziano Di Pietro and [Dr. Martin Schneebeli](https://www.slf.ch/de/mitarbeitende/schneebm/). I am involved in the data campaign planning, field work, and ML development for **snowpack stability prediction**.
 
 I also continue to work on **ClimateSet** ([A Large-Scale Climate Model Dataset for ML](https://climateset.github.io/)) and our endeavor to super-emulate CMIP6. Moreover, I am putting a team together for reviewing ML in Cryospheric sciences, and building a connected **ML4Cryo** community.
