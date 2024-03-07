@@ -3,33 +3,33 @@ layout: project-page
 title: Snowdragon
 subtitle: Automatic classification of Snow Micro Pen profiles
 order: 3
-image: climateset-logo.png
+image: snowdragon.jpg
 authors:
   - name: Julia Kaltenborn
-  - name: Someone else
+  - name: Amy Macfarlane
+  - name: Viviane Clay
+  - name: Martin Schneebeli
 publications:
-  - name: Neurips 2023
-    link: https://www.dair-institute.org/about
-  - name: Something
-    link: https://www.dair-institute.org/about
+  - name: Geoscientific Model Development
+    link: https://doi.org/10.5194/gmd-16-4521-2023
+  - name: Neurips 2021 (CCAI Workshop)
+    link: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/neurips2021/48/paper.pdf
 talks:
-  - name: Neurips 2023
-    link: https://www.dair-institute.org/about
-  - name: Something
-    link: https://www.dair-institute.org/about
+  - name: Neurips 2021 (CCAI Workshop)
+    link: https://www.climatechange.ai/papers/neurips2021/48
+  - name: EGU 2021 (ML for Cryosphere Session)
+    link: https://meetingorganizer.copernicus.org/EGU21/EGU21-15637.html
 tags:
-    - name: Website
-      link: https://www.dair-institute.org/about
-    - name: Twitter
-      link: https://twitter.com/timnitGebru
-    - name: Data
-      link: https://twitter.com/timnitGebru
     - name: GitHub
       link: https://twitter.com/timnitGebru
+    - name: Data
+      link: https://doi.org/10.1594/PANGAEA.935934
+    - name: Models
+      link: https://doi.org/10.5281/zenodo.7063520
+    - name: MOSAiC
+      link: https://mosaic-expedition.org/
 status: finished
 ---
-This is the project of my [bachelor thesis](https://e-archivo.uc3m.es/handle/10016/24434). We explored the suitability of audiovisual descriptors for predicting subjective aspects of multimedia content, such as the aesthetic value or the elicited emotion and attention.
+Description.
 
-We labeled several data sets. First, we collected a set of more than 300 car commercials from YouTube and [labeled their aesthetic value](http://www.sciencedirect.com/science/article/pii/S0957417414004400) by using the metadata provided by viewers, such as the likes, dislikes, view count, etc. In other experiments we labeled the elicited [emotion and attention](https://dl.acm.org/citation.cfm?id=3109418) of short movies by measuring the electrodermal activity (skin conductance) of participants while watching the videos.
-
-We extracted visual features based on previous literature and novel descriptors based on psychology and film making, such as features related to the rule of thirds, the temporal segmentation of the videos or the [visual salience](https://link.springer.com/article/10.1007/s11042-017-5339-9). Then, we trained machine learning algorithms such as SVM and logistic regression to successfully classify the aesthetic value of the videos or predict the levels of elicited emotion and attention.
+News: Collaboration for an Alpine Snowdragon!
