@@ -4,7 +4,7 @@ title: Caiclone
 subtitle: Tracking extra-tropical cyclones with Fourier Neural Operators
 order: 1
 image: caiclone.jpg
-authors:
+contributors:
   - name: Julia Kaltenborn
   - name: Dr. Lenka Novak
   - name: Prof. Jinlong Wu

@@ -2,9 +2,9 @@
 layout: project-page
 title: Causalpaca
 subtitle: Emulating climate models with causal machine learning
-order: 4
+order: 6
 image: causalpaca.png
-authors:
+contributors:
   - name: Julia Kaltenborn
   - name: Charlotte Lange
   - name: Julien Boussard
@@ -21,3 +21,6 @@ publications:
 status: in-progress
 ---
 Causalpaca Description
+
+# TODO add the big picture image
+<img align="left" width="300" style="vertical-align:middle;margin:0px 40px" src="../../assets/images/projects/caiclone.jpg">

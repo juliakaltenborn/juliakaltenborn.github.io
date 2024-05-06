@@ -2,9 +2,9 @@
 layout: project-page
 title: Snowdragon
 subtitle: Automatic classification of Snow Micro Pen profiles
-order: 3
-image: snowdragon.jpg
-authors:
+order: 5
+image: snowdragon_bearbeitet.jpg
+contributors:
   - name: Julia Kaltenborn
   - name: Amy Macfarlane
   - name: Viviane Clay
@@ -21,7 +21,7 @@ talks:
     link: https://meetingorganizer.copernicus.org/EGU21/EGU21-15637.html
 tags:
     - name: GitHub
-      link: https://twitter.com/timnitGebru
+      link: https://github.com/liellnima/snowdragon
     - name: Data
       link: https://doi.org/10.1594/PANGAEA.935934
     - name: Models
@@ -30,6 +30,6 @@ tags:
       link: https://mosaic-expedition.org/
 status: finished
 ---
-Description.
+See paper.
 
 News: Collaboration for an Alpine Snowdragon!

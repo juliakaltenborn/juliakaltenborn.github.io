@@ -4,7 +4,7 @@ title: Iceagle
 subtitle: Ice Lead Analysis with GNNs
 order: 2
 image: iceagle.jpg
-authors:
+contributors:
   - name: Julia Kaltenborn
   - name: Venkatesh Ramesh
   - name: Thomas Wright

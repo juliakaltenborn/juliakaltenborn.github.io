@@ -1,9 +1,9 @@
 ---
 title: ClimateSet
 subtitle: A large-scale climate model dataset for machine learning
-order: 3
+order: 7
 image: climateset-logo.png
-authors:
+contributors:
   - name: Julia Kaltenborn
   - name: Charlotte Lange
   - name: Venkatesh Ramesh
