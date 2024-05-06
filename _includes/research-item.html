@@ -7,11 +7,11 @@
       <p class="subtitle is-6">{{ item.subtitle }} </p>
 
       <div class="content">
-        {% if item.authors %}
+        {% if item.contributors %}
         <details>
-          <summary><strong>Authors</strong></summary>
-            {% for author in item.authors %}
-              <span class="tag is-light">{{ author.name }}</span>
+          <summary><strong>Contributors</strong></summary>
+            {% for contributor in item.contributors %}
+              <span class="tag is-light">{{ contributor.name }}</span>
             {% endfor %}
         </details>
         {% endif %}
