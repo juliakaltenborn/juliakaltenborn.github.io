@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Mountaineering
-permalink: /mountaineering
+title: Fieldwork
+permalink: /fieldwork
 ---
 
 <div class="content">
@@ -10,8 +10,8 @@ permalink: /mountaineering
 </div>
 
 <div class="columns is-multiline is-centered is-vcentered">
-  {% assign mountaineering-items = site.mountaineering | sort: 'year' | reverse %}
-  {% for item in mountaineering-items %}
-      {% include mountaineering-item.html %}
+  {% assign fieldwork-items = site.fieldwork | sort: 'year' | reverse %}
+  {% for item in fieldwork-items %}
+      {% include fieldwork-item.html %}
   {% endfor %}
 </div>
