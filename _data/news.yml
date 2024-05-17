@@ -1,9 +1,35 @@
-- title: Something new
-  date: 2019-01-21
-  content: "This is a description! A long long text. Let's try a [link](https://www.w3schools.com/html/html_links.asp)!"
-- title: Something new 2
-  date: 2019-01-20
-  content: "This is a description! A long long text. Let's try a [link](https://www.w3schools.com/html/html_links.asp)!"
-- title: Something new 3
-  date: 2019-01-19
-  content: "This is a description! A long long text. Let's try a [link](https://www.w3schools.com/html/html_links.asp)!"
+- title: ClimateSet at Neurips 2023
+  date: 2023-12-12
+  content: "We presented our work at the Datasets and Benchmark Track at Neurips. We are happy that so many folks showed up!"
+
+- title: ML4Cryo Talk at AGU 2023 
+  date: 2023-12-14
+  content: "Going to AGU for a few days for an invited talk about community building for the ML4Cryo community."
+
+- title: Poster at the CCAI Workshop 2023
+  date: 2023-12-16
+  content: "Julien Boussard presenting our work 'Towards Causal Representations of Climate Model Data' at the Climate Change AI Workshop at Neurips."
+
+- title: Starting an internship at the SLF
+  date: 2024-01-01
+  content: "Starting my internship at the Snow- and Avalanche Research Institute (SLF) to get more hands-on and field work experience in the cryosphere domain."
+
+- title: Alpine Snowdragon
+  date: 2024-01-08
+  content: "Starting to support the National Avalanche Warning Team in Tirol with re-training snowdragon for their Alpine dataset. "
+
+- title: AI4Snow kick-off
+  date: 2024-02-19
+  content: Starting to support the AI team of the [AI4snow](https://ai4snow.eoc.dlr.de/) project initiated by the German Aerospace Center (DLR).
+
+- title: Invited talk at Kungfu.ai
+  date: 2024-03-01
+  content: Introduction to machine learning for climate emulation. I very much enjoyed the in-depth questions!
+
+- title: Invited talk at Imperial College London
+  date: 2024-05-21
+  content: Presenting ClimateSet together with my co-author Charlotte Lange.
+
+# - title: Invited talk at ICML 2024 (ClimateSet)
+#   date:
+#   content:
