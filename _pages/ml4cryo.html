@@ -4,15 +4,22 @@ title: Machine Learning for Cryospheric Sciences
 permalink: /ml4cryo
 ---
 <div class="content">
-  <h1 class="title is-size-4">Call for Collaboration</h1>
-  Some text. Link to GitHub page for the literature review project.
-  <h2 class="title is-size-4">Mailinglist</h2>
-  Some text.
-  <h3 class="title is-size-4">Venues</h3>
+  <!-- <h1 class="title is-size-4">Call for Collaboration</h1>
+  Some text. Link to GitHub page for the literature review project. -->
+  <!-- <h1 class="title is-size-4">Slack Space</h1> -->
+  <!-- <h1 class="title is-size-4">Literature Collection Point</h2>
+
+  <h2 class="title is-size-4">Internal Communication</h2> -->
+  <a href="https://github.com/liellnima/ml4cryo ">GitHub</a>: Collection of ML4Cryo literature. 
+  <br>
+  <a href="https://join.slack.com/t/ml4cryo/shared_invite/zt-2iz6mgjf4-iL3nqX3oOgahvc79deU4jA">Slack Space</a>: Not launched yet, but exists.
+  <br>
+  Mailing List: In Progress.
+  <h1 class="title is-size-4">Venues</h3>
 </div>
 
 <div class="columns is-multiline">
-{% assign venues = site.data.ml4cryo-venues | sort: 'start-date' %}
+{% assign venues = site.data.ml4cryo-venues %}
 {% for venue in venues %}
     {% include venue-item.html %}
 {% endfor %}

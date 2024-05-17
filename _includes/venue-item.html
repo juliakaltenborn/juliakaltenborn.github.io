@@ -20,9 +20,20 @@
           <p class="subtitle is-5">{{ venue.fullname }} <br>
             <a href="{{ venue.link }}"> {{ venue.linkname }}</a>
             <p class="subtitle is-6">
-              {{ venue.start-date | date_to_string }} - {{ venue.end-date | date_to_string }}
+              
+              {% if venue.end-date %}
+                {{ venue.start-date | date_to_string }} - {{ venue.end-date | date_to_string }}
+              {% elsif venue.start-date %}
+                {{ venue.start-date | date_to_string }}
+              {% else %}
+                {{ venue.timing }}
+              {% endif %}
               <br>
-              <a>@{{ venue.location }}</a>
+              {% if venue.location %}
+                {% for loc in venue.location %}
+                 <a href="{{ loc.link }}">@{{ loc.name }}</a> &nbsp; &nbsp; 
+                {% endfor %}
+              {% endif %}
             </p>
           </p>
         </div>
@@ -39,6 +50,11 @@
         <br> -->
 
         {% endif %}
+          <span class="tag is-info">{{ venue.form }}</span>
+        {% if venue.form %}
+          
+        {% endif %}
+
         {% if venue.audience %}
           {% for tag in venue.audience %}
             <span class="tag is-warning">{{ tag }}</span>

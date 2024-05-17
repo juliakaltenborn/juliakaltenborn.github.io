@@ -1,33 +1,161 @@
-- name: NeurIPS
-  fullname: Conference on Neural Information Processing Systems
-  type: conference
-  link: https://neurips.cc/
-  linkname: neurips.cc
-  topics:
-    - machine learning
-    - computational neuroscience
-  audience:
-    - ml-audience
-    - cryo-audience
-  fees: XX USD
-  start-date: 2024-01-01
-  end-date: 2024-01-01
-  location: University XYZ, United States of America
-  logo:
+# - name: CCAI Workshops
+#   fullname: Climate Change AI Workshops
+#   type: conference
+#   link: https://www.climatechange.ai/events
+#   linkname: neurips.cc
+#   topics:
+#     - machine learning
+#     - tackling climate change
+#   audience:
+#     - ml-audience
+#   fees: conference fees apply
+#   start-date: annual
+#   end-date: 2024-01-01
+#   location: 2024-01-01
+#     - University XYZ, United States of America
+#   logo:
 
-- name: NeurIPS
-  fullname: Conference on Neural Information Processing Systems
-  type: conference
-  link: https://neurips.cc/
-  linkname: neurips.cc
+# TODO: add ISSW sessions if there are any ML sessions
+# TODO: add fieldwork opportunities
+
+# ML Glaciology workshop 
+- name: ML in Glaciology Workshop
+  fullname: Machine Learning in Glaciology Workshop
+  type: workshop
+  link: https://machine-learning-in-glaciology-workshop.github.io/
+  linkname: machine-learning-in-glaciology-workshop.github.io
+  topics:
+    - glaciology
+    - machine learning
+  audience:
+    - cryo-audience
+    - ml-audience
+  fees: 800 USD
+  form: hands-on workshop
+  timing: "Annual"
+  start-date: 2024-09-06
+  end-date: 2024-09-12
+  location: 
+    - name: Finse Alpine Research Center, Norway
+      link: https://www.finse.uio.no/
+  logo: 
+
+# AGU Sessions
+- name: AGU Sessions
+  fullname: AI/ML for the Cryosphere Sessions at AGU's Annual Meeting
+  type: Conference Sessions
+  link: https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/210991
+  linkname: agu.org
+  topics:
+    - cryosphere
+    - polar sciences
+    - artificial intelligence
+    - machine learning
+  audience:
+    - cryo-audience
+  fees: Conference fees apply
+  form: posters & talks
+  timing: "Annual in December"
+  start-date: 
+  end-date: 
+  location: 
+    - name: Annual Meeting of the American Geophysical Union
+      link: https://www.agu.org/annual-meeting
+  logo: agu.png
+
+# EGU Sessions
+- name: EGU Sessions
+  fullname: AI/ML for the Cryosphere Sessions at EGU's General Assembly
+  type: Conference Sessions
+  link: https://meetingorganizer.copernicus.org/EGU23/session/45845
+  linkname: egu.eu
+  topics:
+    - cryosphere
+    - polar sciences
+    - artificial intelligence
+    - machine learning
+  audience:
+    - cryo-audience
+  fees: Conference fees apply
+  form: posters & talks
+  timing: "Annual in April. In Vienna, Austria."
+  start-date: 
+  end-date: 
+  location: 
+    - name: General Assembly of the European Geophysical Union
+      link: https://www.egu.eu/meetings/general-assembly/
+  logo: egu.png
+
+# Polar EU week workshop
+- name: Polar Science Week Sessions
+  fullname: AI/ML Sessions at the European Polar Science Week
+  type: workshop
+  link: https://www.polar-science-week.eu/
+  linkname: polar-science-week.eu
+  topics:
+    - polar science
+    - artificial intelligence
+    - machine learning
+  audience:
+    - cryo-audience
+  fees: 
+  form: poster & talks
+  timing: 
+  start-date: 2024-09-03
+  end-date: 2024-09-06
+  location: 
+    - name: The Black Diamond, Copenhagen, Denmark
+      link: 
+  logo: polarweek-clean.png
+
+- name: CCAI Workshops
+  fullname: Tackling Climate Change with AI Workshops
+  type: Conference Workshop
+  link: https://www.climatechange.ai/events
+  linkname: climatechange.ai
   topics:
     - machine learning
-    - computational neuroscience
+    - tackling climate change
   audience:
     - ml-audience
+  fees: Conference fees apply
+  form: papers & posters
+  timing: "Annual, at different conferences:"
+  start-date: 
+  end-date: 
+  location: 
+    - name: NeurIPS
+      link: https://neurips.cc/
+    - name: ICLR
+      link: https://iclr.cc/
+    - name: ICML
+      link: https://icml.cc/
+    - name: AAAI
+      link: https://aaai.org/conference/aaai/
+    - name: AMDL
+      link: https://2024.appliedmldays.org/
+  logo: ccai.png
+
+# Columbia University workshop
+- name: ML for Polar Regions Workshop
+  fullname: Machine Learning for Polar Regions Workshop
+  type: workshop
+  link: https://sustainable.columbia.edu/events/machine-learning-polar-regions-workshop
+  linkname: columbia.edu
+  topics:
+    - glaciology
+    - machine learning
+  audience:
     - cryo-audience
-  fees: XX USD
-  start-date: 2024-01-01
-  end-date: 2024-01-01
-  location: University XYZ, United States of America
-  logo:
+    - ml-audience
+  fees: 
+  form: talks
+  timing: "Past"
+  start-date: 2022-06-17
+  end-date: 
+  location: 
+    - name: Columbia University, NY, USA
+      link: https://www.columbia.edu/
+  logo: 
+
+# field work summer schools: Svalbar, GRISO, JIRP, the other one in Alaska, McCarthy
