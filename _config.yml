@@ -36,7 +36,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  mountaineering:
+  fieldwork:
     output: true
     permalink: /:collection/:path/
   volunteering:
@@ -57,7 +57,7 @@ defaults:
       layout: "page"
   - scope:
       path: ""
-      type: "mountaineering"
+      type: "fieldwork"
     values:
       layout: "page"
   - scope:
