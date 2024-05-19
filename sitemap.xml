@@ -1,0 +1,113 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19</lastmod>
+
+      <priority>0.9</priority>
+
+      <image:image>
+        <image:loc>https://juliakaltenborn.github.io/assets/images/julia/bio_pic.jpg</image:loc>
+        <image:caption>Me in Shinjuku</image:caption>
+        <image:geo_location>Tokyo, Japan</image:geo_location>
+      </image:image>
+
+
+   </url>
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/research.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.5</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/about.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/ml4cryo.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.4</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/fieldwork.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.3</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/volunteering.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.3</priority>
+
+   </url>
+
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/cv.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://juliakaltenborn.github.io/news.html</loc>
+
+      <changefreq>monthly</changefreq>
+
+      <lastmod>2024-05-19<</lastmod>
+
+      <priority>0.1</priority>
+
+   </url>
+
+
+</urlset>
