@@ -4,6 +4,6 @@ title: Bio (FR)
 permalink: /bio-fr
 ---
 
-Alex Hernandez-Garcia est post-doctorant au Mila et à l'Université de Montréal. Il se concentre actuellement sur la recherche sur l'apprentissage automatique pour des applications scientifiques afin de combattre la crise climatique. Auparavant, sa recherche a exploré l'intersection entre l'apprentissage dans les cerveaux et les machines, qui continue d'être une source d'inspiration pour lui. 
+Julia Kaltenborn est doctorante à l'Université McGill et à l'Institut d'intelligence artificielle Mila-Québec, sous la direction du professeur David Rolnick. Ses recherches portent sur l'apprentissage automatique pour les sciences du climat et de la cryosphère. Elle effectue des travaux pratiques sur le terrain afin de mieux comprendre les besoins de la communauté cryogénique et de créer des outils d'apprentissage automatique plus efficaces. En d'autres termes, elle développe des modèles d'apprentissage automatique selon l'approche "apprendre de la nature dans la nature".
 
 [(_Read in English_)](bio)
