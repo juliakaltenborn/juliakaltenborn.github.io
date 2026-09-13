@@ -21,7 +21,22 @@ $marine-darker: #016163;
 $turq: #aecdc4;
 $neon-aqua: #85ffe7;
 $neon-aqua-light: #e5fffa;
+
+// new color palette
 $white: #ffffff;
+$ivory: #F3EFE7;
+$charcoal: #56544F; //#343331;
+$mainteal: #016163;
+$copper: #B86F52;
+$warm-brown: #777168;
+
+// yet another color palette
+$blue: #3D70B2; //#4471AB; //#53739C;
+$ice: #99A9BF;
+$grey: #AEB2BB;
+$stone: #858EA3;
+$rose: #C38B76; //#D28467;
+$muted-green: #958F6F;
 
 // ============================================================================
 // BULMA THEME MAPPING
@@ -30,24 +45,24 @@ $white: #ffffff;
 
 $family-sans-serif: $site-font;
 
-$grey-dark: $brown;
+$grey-dark: $charcoal;//$brown;
 $grey-light: $beige-light;
-$black: $marine-darker;
-$black-bis: $marine-darker;
+$black: $blue;//$marine-darker;
+$black-bis: $blue; //$marine-darker;
 $real-black: hsl(0, 0%, 4%);
 
 $primary: $purple;
-$link: $marine-darker;
-$link-hover: $pink;
+$link: $blue;//$marine-darker;
+$link-hover: $copper;//$pink;
 $warning: $marine-lighter;
 $success: $neon-aqua;
 $info: $neon-aqua-light;
 
-$body-background-color: $beige-lighter;
+$body-background-color: $ivory;//$beige-lighter;
 
 $navbar-burger-color: $purple;
 $navbar-item-color: $real-black;
-$navbar-item-hover-color: $pink;
+$navbar-item-hover-color: $copper;//$pink;
 
 $footer-background-color: $white;//transparent;
 $fullhd-enabled: false;
