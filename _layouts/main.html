@@ -4,22 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-    <!-- <link rel="stylesheet" href="/assets/css/styles.css"> -->
-    <link rel="stylesheet" href="/assets/css/mystyles.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
     <!--{% feed_meta %}-->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="/assets/js/navbar-burger.js"></script>
+    <script src="{{ '/assets/js/navbar-burger.js' | relative_url }}"></script>
     {% seo %}
-     <!-- ownership verification -->
-     <meta name="google-site-verification" content="57XARMphMBaB5W6VfSGBnssTNbU-t5PBeshHrp3V7jE" />
-    <meta name="Description" CONTENT="Hi! I am Julia Kaltenborn and I am using machine learning for climate modeling and cryospheric sciences.">
+    <!-- ownership verification -->
+    <meta name="google-site-verification" content="57XARMphMBaB5W6VfSGBnssTNbU-t5PBeshHrp3V7jE" />
+    <meta name="Description" content="Hi! I am Julia Kaltenborn and I am using machine learning for climate modeling and cryospheric sciences.">
   </head>
   <body class="has-navbar-fixed-top">
     <div class="topFixedBar"></div>
-    <!-- <link rel="stylesheet" href="/assets/css/mystyles.css"> -->
     <section class="hero is-fullheight">
       {% include navigation.html icon-size="lg" %}
       <div class="hero-body">
