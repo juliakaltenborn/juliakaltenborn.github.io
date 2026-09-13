@@ -33,30 +33,6 @@ collections:
   texts:
     output: false
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "fieldwork"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "volunteering"
-    values:
-      layout: "page"
-
-
 # Build settings
 markdown: kramdown
 plugins:

@@ -21,6 +21,7 @@ $marine-darker: #016163;
 $turq: #aecdc4;
 $neon-aqua: #85ffe7;
 $neon-aqua-light: #e5fffa;
+$white: #ffffff;
 
 // ============================================================================
 // BULMA THEME MAPPING
@@ -48,7 +49,7 @@ $navbar-burger-color: $purple;
 $navbar-item-color: $real-black;
 $navbar-item-hover-color: $pink;
 
-$footer-background-color: transparent;
+$footer-background-color: $white;//transparent;
 $fullhd-enabled: false;
 $size-8: 0.5rem !default;
 

@@ -6,12 +6,6 @@
     source: fa
     name: fa-envelope
     type: far
-- name: GitHub
-  link: https://github.com/liellnima
-  icon:
-    source: fa
-    name: fa-github
-    type: fab
 - name: Google Scholar
   link: https://scholar.google.de/citations?user=pUAkKYsAAAAJ&hl=de&oi=ao
   icon:
@@ -23,6 +17,12 @@
   icon:
     source: fa
     name: fa-orcid
+    type: fab
+- name: GitHub
+  link: https://github.com/liellnima
+  icon:
+    source: fa
+    name: fa-github
     type: fab
 # - name: LinkedIn
 #   link: https://ca.linkedin.com/in/jkaltenborn

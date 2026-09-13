@@ -2,6 +2,7 @@
 layout: page
 title: Bio
 permalink: /bio
+sitemap: false
 ---
 
 ## Short version
