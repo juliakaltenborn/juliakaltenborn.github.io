@@ -2,7 +2,10 @@
 .*.pyc
 _site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
 vendor
 .bundle
 .cemetery
+assets/css/mystyles.css
+assets/css/mystyles.css.map
