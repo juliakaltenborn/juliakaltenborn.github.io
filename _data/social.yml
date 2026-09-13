@@ -18,15 +18,21 @@
     source: ai
     name: ai-google-scholar
     type: ai
-- name: LinkedIn
-  link: https://ca.linkedin.com/in/jkaltenborn
+- name: ORCID
+  link: https://orcid.org/0000-0002-9292-9655
   icon:
     source: fa
-    name: fa-linkedin-in
+    name: fa-orcid
     type: fab
-- name: Twitter
-  link: https://twitter.com/JuliaKaltenborn
-  icon:
-    source: fa
-    name: fa-twitter
-    type: fab
+# - name: LinkedIn
+#   link: https://ca.linkedin.com/in/jkaltenborn
+#   icon:
+#     source: fa
+#     name: fa-linkedin-in
+#     type: fab
+# - name: Twitter
+#   link: https://twitter.com/JuliaKaltenborn
+#   icon:
+#     source: fa
+#     name: fa-twitter
+#     type: fab

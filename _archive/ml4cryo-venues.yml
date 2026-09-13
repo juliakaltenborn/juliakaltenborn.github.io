@@ -19,6 +19,26 @@
 # TODO: add fieldwork opportunities
 
 # ML Glaciology workshop 
+- name: JIRP
+  fullname: Juneau Icefield Research Program
+  type: expedition
+  link: https://juneauicefield.org/
+  linkname: juneauicefield.org
+  topics:
+    - glaciology
+  audience:
+    - cryo-audience
+  fees: 15k USD
+  form: expedition
+  timing: "Annual"
+  start-date: 
+  end-date: 
+  location: 
+    - name: Juneau Icefield, Alaska, BC, Yukon
+      link: https://juneauicefield.org/
+  logo: 
+
+# ML Glaciology workshop 
 - name: ML in Glaciology Workshop
   fullname: Machine Learning in Glaciology Workshop
   type: workshop

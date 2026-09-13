@@ -1,14 +1,6 @@
-- name: About me
-  link: /about.html
 - name: Research
   link: /research.html
-- name: ML4Cryo
-  link: /ml4cryo.html
-- name: Fieldwork
-  link: /fieldwork.html
-- name: Volunteering
-  link: /volunteering.html
+- name: Community
+  link: /community.html
 - name: CV
   link: /cv.html
-- name: News
-  link: /news.html

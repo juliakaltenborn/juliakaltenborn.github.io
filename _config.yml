@@ -30,18 +30,8 @@ include:
 
 # Collections
 collections:
-  news:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
-  fieldwork:
-    output: true
-    permalink: /:collection/:path/
-  volunteering:
-    output: true
-    permalink: /:collection/:path/
+  texts:
+    output: false
 
 # Defaults
 defaults:

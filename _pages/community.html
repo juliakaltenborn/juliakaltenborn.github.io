@@ -1,0 +1,19 @@
+---
+layout: page
+title: Community
+permalink: /community
+---
+
+{% assign community_page = site.texts | where: "slug", "community" | first %}
+<div class = "content">
+{{ community_page.content | markdownify }}
+</div>
+
+{% comment %}
+<div class="columns is-multiline is-centered is-vcentered">
+  {% assign volunteering-items = site.community | sort: 'year' | reverse %}
+  {% for item in community-items %}
+      {% include community-item.html %}
+  {% endfor %}
+</div>
+{% endcomment %}
