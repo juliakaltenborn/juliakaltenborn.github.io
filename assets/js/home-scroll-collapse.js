@@ -47,9 +47,10 @@
     }, 0);
 
     if (tallest > 0) {
+      const publicationBottomSpace = 14;
       researchGrid.style.setProperty(
         "--selected-publications-height",
-        tallest + "px"
+        (tallest + publicationBottomSpace) + "px"
       );
     }
   }
