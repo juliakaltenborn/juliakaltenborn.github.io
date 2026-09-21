@@ -20,7 +20,8 @@
     - Andreas J. Dietz
     - Celia A. Baumhoer
   year: 2026
-  venue: "EGUsphere preprint, under review for The Cryosphere"
+  venue: "EGUsphere preprint (submitted to The Cryosphere)"
+  status: under review
   group: observations
   link: "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3833/"
   homepage_author_count: 2
@@ -36,6 +37,7 @@
     - Anastase Alexandre Charantonis
   year: 2026
   venue: "arXiv preprint"
+  status: under review
   group: emulation
   link: "https://arxiv.org/abs/2605.16929"
   homepage_author_count: 2
@@ -73,7 +75,8 @@
     - Emma Neuhauser
     - Julia Kaltenborn
   year: 2026
-  venue: "EGU General Assembly"
+  venue: "Submitted to the Journal of Glaciology"
+  status: under review
   group: cryosphere
   link: "https://meetingorganizer.copernicus.org/EGU26/EGU26-6984.html"
 
