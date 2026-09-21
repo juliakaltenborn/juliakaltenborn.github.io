@@ -6,7 +6,9 @@
       {% if theme.homepage %}
         <article class="research-theme-card">
           <h4 class="research-card-title">{{ theme.title }}</h4>
-          <p>{{ theme.description }}</p>
+          <div class="research-card-description">
+            <p>{{ theme.description }}</p>
+          </div>
 
           <div class="selected-publications">
             {% for paper_id in theme.featured_papers %}

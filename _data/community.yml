@@ -1,3 +1,10 @@
+- name: Polar Eclipse School
+  link: https://polar-eclipse-school.github.io/
+  role: Coordinator
+  year: 2026
+  image:
+  description: A transdisciplinary field school bringing together science, art, Indigenous knowledge, activism, and field practice.
+
 - name: ML4Cryo
   link: https://ml4cryo.github.io/
   role: Co-founder
@@ -5,12 +12,12 @@
   image: projects/ml4cryo_logo_updated.png
   description: A global research community connecting machine learning and cryospheric science.
 
-- name: Polar Eclipse School
-  link: https://polar-eclipse-school.github.io/
-  role: Coordinator
-  year: 2026
+- name: Critical Science Reading Group
+  link: https://criticalscience.github.io/
+  role: Organizing Committee
+  year: 2025–present
   image:
-  description: A transdisciplinary field school bringing together science, art, Indigenous knowledge, activism, and field practice.
+  description: A Mila reading group critically examining the values, power structures, and societal relationships that shape AI and science.
 
 - name: AI Helps Ukraine Charity Conference
   link: https://mila.quebec/en/news/ai-helps-ukraine-charity-conference-a-look-back-on-the-in-person-event-at-mila

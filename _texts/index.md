@@ -1,9 +1,11 @@
 ---
 slug: index
 ---
+<div class="home-role-block" markdown="1">
 PhD Candidate in Computer Science at McGill University & [Mila](https://mila.quebec/)
 
 Advised by [Prof. David Rolnick](https://davidrolnick.com/)
+</div>
 
 **I am a scientific machine learning researcher developing methods that enable us to ask new scientific questions about the Earth system, with a particular focus on the cryosphere.**
 

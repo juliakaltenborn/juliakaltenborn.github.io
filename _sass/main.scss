@@ -47,11 +47,10 @@ html {
   padding: 2rem 1.5rem;
 }
 
-.home-reading-mode .home-hero {
+.home-scroll-ready .home-hero {
   min-height: 0;
   display: block;
-  padding-top: var(--home-reading-top-space, 2rem);
-  padding-bottom: 0;
+  padding: var(--home-landing-top-space, 2rem) 1.5rem var(--home-current-bottom-space, 2.5rem);
 }
 
 .home-intro {
@@ -63,7 +62,55 @@ html {
 }
 
 .home-text-column {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-left: 2rem;
+}
+
+.home-name-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+}
+
+.home-name-line h1 {
+  margin: 0 !important;
+}
+
+.pronoun-tag {
+  display: inline-block;
+  padding: 0.12rem 0.4rem;
+  border: 1px solid rgba($blue, 0.28);
+  border-radius: 999px;
+  color: $link;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.pronoun-tag:hover,
+.pronoun-tag:focus {
+  border-color: rgba($copper, 0.45);
+  color: $link-hover;
+}
+
+.home-role-block {
+  margin: 0.25rem 0;
+}
+
+.home-role-block p {
+  margin-bottom: 0 !important;
+}
+
+.home-role-block p + p {
+  margin-top: 0.1rem;
+}
+
+.home-text-column > p {
+  margin-bottom: 0 !important;
 }
 
 .home-portrait {
@@ -140,6 +187,8 @@ html {
 
 .research-theme-card {
   min-width: 0;
+  display: flex;
+  flex-direction: column;
   padding: 1.15rem 1.15rem 1.25rem;
   border: 1px solid rgba($blue, 0.18);
   border-radius: 0.3rem;
@@ -152,8 +201,19 @@ html {
   line-height: 1.25;
 }
 
+.research-card-description {
+  flex: 1 1 auto;
+}
+
+.research-card-description p {
+  margin-bottom: 0 !important;
+}
+
 .selected-publications {
-  margin-top: 0.7rem;
+  min-height: 8.4rem;
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba($blue, 0.15);
 }
 
 .selected-publication + .selected-publication {
@@ -448,6 +508,10 @@ footer {
   .selected-research-grid {
     grid-template-columns: 1fr;
   }
+
+  .selected-publications {
+    min-height: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -456,8 +520,20 @@ footer {
     padding-bottom: 2rem;
   }
 
-  .home-reading-mode .home-hero {
-    padding-bottom: 0;
+  .home-text-column {
+    display: block;
+  }
+
+  .home-name-line {
+    margin-bottom: 0.75rem;
+  }
+
+  .home-role-block {
+    margin-bottom: 1rem;
+  }
+
+  .home-text-column > p {
+    margin-bottom: 1rem !important;
   }
 
   .home-photo-column,
