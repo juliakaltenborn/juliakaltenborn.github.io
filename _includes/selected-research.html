@@ -2,26 +2,28 @@
   <h3>Selected Research</h3>
 
   {% for theme in site.data.research %}
-    <div class="research-theme">
-      <p class="research-label"><span>{{ theme.title }}</span></p>
-      <p>{{ theme.description }}</p>
+    {% if theme.homepage %}
+      <div class="research-theme">
+        <p class="research-label"><span>{{ theme.title }}</span></p>
+        <p>{{ theme.description }}</p>
 
-      <div class="selected-publications">
-        {% for paper_id in theme.featured_papers %}
-          {% assign paper = site.data.papers | where: "id", paper_id | first %}
-          {% if paper %}
-            {% assign author_count = paper.homepage_author_count | default: 2 %}
-            <div class="selected-publication">
-              <a class="selected-publication-title" href="{{ paper.link }}">{{ paper.title }}</a>
-              <div class="selected-publication-meta">
-                {% for author in paper.authors limit: author_count %}
-                  {% if author == "Julia Kaltenborn" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
-                {% endfor %}, et al. · {{ paper.homepage_venue }}
+        <div class="selected-publications">
+          {% for paper_id in theme.featured_papers %}
+            {% assign paper = site.data.papers | where: "id", paper_id | first %}
+            {% if paper %}
+              {% assign author_count = paper.homepage_author_count | default: 2 %}
+              <div class="selected-publication">
+                <a class="selected-publication-title" href="{{ paper.link }}">{{ paper.title }}</a>
+                <div class="selected-publication-meta">
+                  {% for author in paper.authors limit: author_count %}
+                    {% if author == "Julia Kaltenborn" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
+                  {% endfor %}{% if paper.authors.size > author_count %}, et al.{% endif %} · {{ paper.homepage_venue }}
+                </div>
               </div>
-            </div>
-          {% endif %}
-        {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
 </div>

@@ -1,30 +1,34 @@
-- name: AI Helps Ukraine Charity Conference
-  link:
-  role:
-  year:
-  image:
-  description:
-- name: Unser Dialog
-  link:
-  role:
-  year:
-  image:
-  description:
 - name: ML4Cryo
-  link:
-  role:
-  year:
-  image:
-  description:
+  link: https://ml4cryo.github.io/
+  role: Co-founder
+  year: 2024–present
+  image: projects/ml4cryo_logo_updated.png
+  description: A global research community connecting machine learning and cryospheric science.
+
 - name: Polar Eclipse School
-  link:
-  role:
-  year:
+  link: https://polar-eclipse-school.github.io/
+  role: Coordinator
+  year: 2026
   image:
-  description:
-- name: Yellowknife
+  description: A transdisciplinary field school bringing together science, art, Indigenous knowledge, activism, and field practice.
+
+- name: AI Helps Ukraine Charity Conference
+  link: https://aihelpsukraine.cc/
+  role: Co-organizer
+  year: 2022
+  image: community/aihelpsukraine.png
+  description: An AI community fundraiser supporting humanitarian and medical aid in Ukraine.
+
+- name: Unser Dialog
+  link: https://unserdialog.org/
+  role: Co-founder
+  year: 2020–present
+  image: community/unserdialog.png
+  description: A civic initiative creating spaces for dialogue, learning, and public engagement.
+
+- name: Yellowknife Community ML Workshop
   link:
-  role:
-  year:
+  role: Co-organizer
+  year: 2025
   image:
-  description:
+  description: An interactive workshop where local participants designed machine-learning projects around problems relevant to their communities.

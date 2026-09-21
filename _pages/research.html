@@ -4,20 +4,16 @@ title: Research
 permalink: /research
 ---
 
-{% assign research_page = site.texts | where: "slug", "research" | first %}
-<div class="content">
-  {{ research_page.content | markdownify }}
-</div>
+<p class="research-page-intro">
+  My work spans scientific machine learning, Earth system science, and the cryosphere. Publications are grouped below by the questions they address; for the most current and complete list, see my <a href="https://scholar.google.com/citations?user=pUAkKYsAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar profile</a>.
+</p>
 
-{% comment %}
-<div class="content">
-  Please refer to my <a href="{{ site.url }}/cv/">CV</a> for selected publications, and to <a href="https://scholar.google.de/citations?user=pUAkKYsAAAAJ&hl=de&oi=ao">Google Scholar</a> for a full list of publications.<br>
-</div>
-
-<div class="columns is-multiline">
-  {% assign research-items = site.projects | sort: 'order' | reverse %}
-  {% for item in research-items %}
-    {% include research-item.html %}
+<div class="research-publications">
+  {% for theme in site.data.research %}
+    <section class="research-publication-section">
+      <h2 class="research-section-title"><span>{{ theme.title }}</span></h2>
+      <p class="research-section-description">{{ theme.description }}</p>
+      {% include publication-list.html paper_ids=theme.papers %}
+    </section>
   {% endfor %}
 </div>
-{% endcomment %}
