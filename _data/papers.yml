@@ -1,4 +1,5 @@
-- title: "SnowGalileo: A Pre-trained Earth Observation Transformer for Daily, 100 m Fractional Snow Cover Mapping"
+- id: snowgalileo
+  title: "SnowGalileo: A Pre-trained Earth Observation Transformer for Daily, 100 m Fractional Snow Cover Mapping"
   authors:
     - Marlena Reil
     - Julia Kaltenborn
@@ -20,9 +21,13 @@
     - Celia A. Baumhoer
   year: 2026
   venue: "EGUsphere preprint, under review for The Cryosphere"
-  group: snow
+  group: observations
+  link: "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3833/"
+  homepage_author_count: 2
+  homepage_venue: "2026"
 
-- title: "Emulating the Forced Response of Climate Models with Generative Machine Learning"
+- id: arches-climate-ssp
+  title: "Emulating the Forced Response of Climate Models with Generative Machine Learning"
   authors:
     - Graham Clyne
     - Julia Kaltenborn
@@ -31,9 +36,13 @@
     - Anastase Alexandre Charantonis
   year: 2026
   venue: "arXiv preprint"
-  group: emulator
+  group: emulation
+  link: "https://arxiv.org/abs/2605.16929"
+  homepage_author_count: 2
+  homepage_venue: "2026"
 
-- title: "Learning a Spatial Partitioning and its Causal Relations from Temporal Data"
+- id: cdsd
+  title: "Learning a Spatial Partitioning and its Causal Relations from Temporal Data"
   authors:
     - Philippe Brouillard
     - Sébastien Lachapelle
@@ -46,9 +55,13 @@
     - David Rolnick
   year: 2026
   venue: "Conference on Causal Learning and Reasoning (CLeaR)"
-  group: causal
+  group: interrogation
+  link: "https://proceedings.mlr.press/v323/brouillard26a.html"
+  homepage_author_count: 3
+  homepage_venue: "CLeaR 2026"
 
-- title: "Wavering Ways Waves Work: Understanding glacier ogive formation using satellite and field observations combined with modelling"
+- id: ogives
+  title: "Wavering Ways Waves Work: Understanding glacier ogive formation using satellite and field observations combined with modelling"
   authors:
     - Naomi Ochwat
     - Yoram Terleth
@@ -61,9 +74,11 @@
     - Julia Kaltenborn
   year: 2026
   venue: "EGU General Assembly"
-  group: snow
+  group: cryosphere
+  link: "https://meetingorganizer.copernicus.org/EGU26/EGU26-6984.html"
 
-- title: "Causal Climate Emulation with Bayesian Filtering"
+- id: picabu
+  title: "Causal Climate Emulation with Bayesian Filtering"
   authors:
     - Sebastian H. M. Hickman
     - Ilija Trajković
@@ -76,9 +91,13 @@
     - Julien Boussard
   year: 2025
   venue: "NeurIPS"
-  group: causal
+  group: interrogation
+  link: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/81289d2fd2f9072fc293a2848d751475-Abstract-Conference.html"
+  homepage_author_count: 3
+  homepage_venue: "NeurIPS 2025"
 
-- title: "Acoustic Snow Stratigraphy Measurements - From the Sound of Breaking Snow Towards Enhanced Snowpack Stability Assessment"
+- id: snow-sound-pen
+  title: "Acoustic Snow Stratigraphy Measurements - From the Sound of Breaking Snow Towards Enhanced Snowpack Stability Assessment"
   authors:
     - Tiziano Di Pietro
     - Julia Kaltenborn
@@ -87,9 +106,11 @@
     - Martin Schneebeli
   year: 2024
   venue: "International Snow Science Workshop (ISSW)"
-  group: snow
+  group: cryosphere
+  link: "https://arc.lib.montana.edu/snow-science/item/3269"
 
-- title: "ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning"
+- id: climateset
+  title: "ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning"
   authors:
     - Julia Kaltenborn
     - Charlotte E. E. Lange
@@ -102,9 +123,13 @@
     - David Rolnick
   year: 2023
   venue: "NeurIPS Datasets and Benchmarks Track"
-  group: emulator
+  group: emulation
+  link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/44a6769fe6c695f8dfb347c649f7c9f0-Abstract.html"
+  homepage_author_count: 2
+  homepage_venue: "NeurIPS 2023"
 
-- title: "Towards Causal Representations of Climate Model Data"
+- id: causal-representations-workshop
+  title: "Towards Causal Representations of Climate Model Data"
   authors:
     - Julien Boussard
     - Chandni Nagda
@@ -116,9 +141,11 @@
     - David Rolnick
   year: 2023
   venue: "NeurIPS Workshop on Tackling Climate Change with Machine Learning"
-  group: causal
+  group: interrogation
+  link: "https://www.climatechange.ai/papers/neurips2023/81"
 
-- title: "Automatic snow type classification of snow micropenetrometer profiles with machine learning algorithms"
+- id: snowdragon
+  title: "Automatic snow type classification of snow micropenetrometer profiles with machine learning algorithms"
   authors:
     - Julia Kaltenborn
     - Amy R. Macfarlane
@@ -126,9 +153,11 @@
     - Martin Schneebeli
   year: 2023
   venue: "Geoscientific Model Development"
-  group: snow
+  group: cryosphere
+  link: "https://gmd.copernicus.org/articles/16/4521/2023/"
 
-- title: "Machine Learning for Snow Stratigraphy Classification"
+- id: snow-stratigraphy-workshop
+  title: "Machine Learning for Snow Stratigraphy Classification"
   authors:
     - Julia Kaltenborn
     - Viviane Clay
@@ -136,4 +165,5 @@
     - Martin Schneebeli
   year: 2021
   venue: "NeurIPS Workshop on Tackling Climate Change with Machine Learning"
-  group: snow
+  group: cryosphere
+  link: "https://www.climatechange.ai/papers/neurips2021/48"

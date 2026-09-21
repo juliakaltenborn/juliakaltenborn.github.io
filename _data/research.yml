@@ -1,0 +1,19 @@
+- id: emulation
+  title: Emulating Numerical Models
+  description: My work on emulators focuses on future climate projections, using machine learning to make knowledge encoded in expensive numerical models more accessible across different Earth system models and forcing scenarios.
+  featured_papers:
+    - climateset
+    - arches-climate-ssp
+
+- id: observations
+  title: Integrating Partial Observations
+  description: My work explores how machine learning can integrate partial observations scattered across sources, such as different sensors, to build a more complete picture of cryospheric systems.
+  featured_papers:
+    - snowgalileo
+
+- id: interrogation
+  title: Interrogating ML Models
+  description: My work explores causal representation learning as a path toward scientifically interrogating learned models of Earth systems, for example by enabling counterfactual questions about what they have learned.
+  featured_papers:
+    - cdsd
+    - picabu

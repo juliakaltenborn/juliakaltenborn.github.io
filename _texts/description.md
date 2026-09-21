@@ -1,19 +1,5 @@
 ---
 ---
-### Selected Research
-
-<p class="research-label"><span>Emulating Numerical Models</span></p>
-
-My work on emulators focuses on future climate projections, using machine learning to make knowledge encoded in expensive numerical models more accessible across different Earth system models and forcing scenarios.
-
-<p class="research-label"><span>Integrating Partial Observations</span></p>
-
-My work explores how machine learning can integrate partial observations scattered across sources, such as different sensors, to build a more complete picture of cryospheric systems.
-
-<p class="research-label"><span>Interrogating ML Models</span></p>
-
-My work explores causal representation learning as a path toward scientifically interrogating learned models of Earth systems, for example by enabling counterfactual questions about what they have learned.
-
 ### Research Philosophy
 To me, researching is a deeply human act. It emerges when we follow our curiosity - playfully, collaboratively, and carefully - question our own beliefs, and cross boundaries into other disciplines or into the unknown. As a scientist, I consider it my duty to question my own privileges and our complicity in extractive systems, particularly in contemporary AI research. In my computational work, I want to remain grounded in the physical systems, people, and practices through which data are produced. In practice, this means: going out into the field.
 
