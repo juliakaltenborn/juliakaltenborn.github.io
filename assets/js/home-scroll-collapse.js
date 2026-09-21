@@ -2,6 +2,7 @@
   const root = document.documentElement;
   const hero = document.querySelector(".home-hero");
   const intro = document.querySelector(".home-intro");
+  const researchGrid = document.querySelector(".selected-research-grid");
 
   if (!hero || !intro) {
     return;
@@ -27,6 +28,32 @@
     }
   }
 
+  function syncPublicationHeights() {
+    if (!researchGrid || window.innerWidth <= 900) {
+      if (researchGrid) {
+        researchGrid.style.removeProperty("--selected-publications-height");
+      }
+      return;
+    }
+
+    const publicationSections = Array.from(
+      researchGrid.querySelectorAll(".selected-publications")
+    );
+
+    researchGrid.style.removeProperty("--selected-publications-height");
+
+    const tallest = publicationSections.reduce(function (maxHeight, section) {
+      return Math.max(maxHeight, section.scrollHeight);
+    }, 0);
+
+    if (tallest > 0) {
+      researchGrid.style.setProperty(
+        "--selected-publications-height",
+        tallest + "px"
+      );
+    }
+  }
+
   function measureLanding() {
     root.classList.remove("home-scroll-ready");
     hero.style.removeProperty("--home-landing-top-space");
@@ -44,11 +71,15 @@
     root.classList.add("home-scroll-ready");
 
     setScrollSpacing();
+    syncPublicationHeights();
   }
 
   window.addEventListener("scroll", requestSpacingUpdate, { passive: true });
   window.addEventListener("resize", function () {
-    window.requestAnimationFrame(measureLanding);
+    window.requestAnimationFrame(function () {
+      measureLanding();
+      syncPublicationHeights();
+    });
   });
 
   if (document.readyState === "complete") {
