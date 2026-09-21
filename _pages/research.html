@@ -32,11 +32,6 @@ permalink: /research
         <div class="supervision-topic">
           {% if item.topic %}{{ item.topic }}{% else %}<span class="content-placeholder">Topic / project</span>{% endif %}
         </div>
-        {% if item.link %}
-          <a class="supervision-link" href="{{ item.link }}">Publication / project</a>
-        {% else %}
-          <span class="supervision-link content-placeholder">Publication / project link</span>
-        {% endif %}
       </article>
     {% endfor %}
   </div>

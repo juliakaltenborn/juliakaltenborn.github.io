@@ -1,8 +1,8 @@
 - id: snowgalileo
   title: "SnowGalileo: A Pre-trained Earth Observation Transformer for Daily, 100 m Fractional Snow Cover Mapping"
   authors:
-    - Marlena Reil
-    - Julia Kaltenborn
+    - Marlena Reil*
+    - Julia Kaltenborn*
     - Donovan J. M. Allum
     - Francis Pelletier
     - Sebastian Roessler

@@ -1,36 +1,36 @@
-- name: Critical Science Reading Group
-  link: https://criticalscience.github.io/
-  role: Organizing Committee
-  year: 2025–present
-  image:
-  description: A Mila reading group critically examining the values, power structures, and societal relationships that shape AI and science.
-
 - name: Polar Eclipse School
   link: https://polar-eclipse-school.github.io/
   role: Coordinator
-  year: 2026
-  image:
+  year: "2026"
+  image: community/polar-eclipse-school.png
   description: A transdisciplinary field school bringing together science, art, Indigenous knowledge, activism, and field practice.
 
 - name: ML4Cryo
   link: https://ml4cryo.github.io/
-  role: Co-founder
+  role: Co-initiator
   year: 2024–present
   image: projects/ml4cryo_logo_updated.png
   description: A global research community connecting machine learning and cryospheric science.
 
-- name: Yellowknife Community ML Workshop
-  link:
-  role: Co-organizer
-  year: 2025
-  image:
-  description: An interactive workshop where local participants designed machine-learning projects around problems relevant to their communities.
+- name: Critical Science Reading Group
+  link: https://criticalscience.github.io/
+  role: Organizing Committee
+  year: 2026–present
+  image: 
+  description: A Mila reading group critically examining the values, power structures, and societal relationships that shape AI and science.
+
+- name: Yellowknife Community ML & Drone Workshop
+  link: 
+  role: Capacity Building
+  year: "2025"
+  image: 
+  description: An interactive workshop where local participants designed machine-learning projects around problems relevant to their communities. This was part of the Landscape Carbon Monitoring Workshop 2025.
 
 - name: AI Helps Ukraine Charity Conference
   link: https://mila.quebec/en/news/ai-helps-ukraine-charity-conference-a-look-back-on-the-in-person-event-at-mila
-  role: Co-organizer
-  year: 2022
-  image: community/aihelpsukraine.png
+  role: Organizing Committee
+  year: "2022"
+  image: community/ai-helps-ukraine.png
   description: A charity conference bringing leading AI researchers together to raise funds for humanitarian and medical aid in Ukraine.
 
 - name: Unser Dialog

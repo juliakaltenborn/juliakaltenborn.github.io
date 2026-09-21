@@ -2,4 +2,3 @@
 slug: research
 ---
 
-Research stuff
