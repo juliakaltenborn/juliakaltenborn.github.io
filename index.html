@@ -2,20 +2,33 @@
 layout: main
 title: Home
 ---
-<div class="columns is-vcentered">
-      <div class="column is-one-third content">
-        <figure class="image">
-          <img src="/assets/images/julia/bio_pic.jpg">
+<section class="home-hero">
+  <div class="container">
+    <div class="columns is-vcentered home-intro">
+      <div class="column is-one-third">
+        <figure class="home-portrait">
+          <div class="image">
+            <img src="/assets/images/julia/bio_pic.jpg" alt="Julia Kaltenborn on the Juneau Icefield">
+          </div>
+          <figcaption class="home-photo-caption">
+            Juneau Icefield Research Program, 2023 — learning from nature, in nature.
+          </figcaption>
         </figure>
       </div>
       <div class="column is-two-thirds content">
-        <h1>{{ site.title }}</h1> 
+        <h1>{{ site.title }}</h1>
         {% assign index_page = site.texts | where: "slug", "index" | first %}
         {{ index_page.content | markdownify }}
+      </div>
+    </div>
   </div>
-</div>
-<div class="content">
-  {% assign description_page = site.texts | where: "slug", "description" | first %}
-  {{ description_page.content | markdownify }}
-</div>
+</section>
 
+<section class="section home-content">
+  <div class="container">
+    <div class="content">
+      {% assign description_page = site.texts | where: "slug", "description" | first %}
+      {{ description_page.content | markdownify }}
+    </div>
+  </div>
+</section>

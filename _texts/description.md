@@ -2,13 +2,16 @@
 ---
 ### Selected Research
 
-#### Emulating Numerical Models
+<p class="research-label"><span>Emulating Numerical Models</span></p>
+
 My work on emulators focuses on future climate projections, using machine learning to make knowledge encoded in expensive numerical models more accessible across different Earth system models and forcing scenarios.
 
-#### Integrating Partial Observations
+<p class="research-label"><span>Integrating Partial Observations</span></p>
+
 My work explores how machine learning can integrate partial observations scattered across sources, such as different sensors, to build a more complete picture of cryospheric systems.
 
-#### Interrogating ML Models
+<p class="research-label"><span>Interrogating ML Models</span></p>
+
 My work explores causal representation learning as a path toward scientifically interrogating learned models of Earth systems, for example by enabling counterfactual questions about what they have learned.
 
 ### Research Philosophy

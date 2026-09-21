@@ -25,17 +25,17 @@ $neon-aqua-light: #e5fffa;
 // new color palette
 $white: #ffffff;
 $ivory: #F3EFE7;
-$charcoal: #56544F; //#343331;
+$charcoal: #56544F;
 $mainteal: #016163;
 $copper: #B86F52;
 $warm-brown: #777168;
 
 // yet another color palette
-$blue: #3D70B2; //#4471AB; //#53739C;
+$blue: #3D70B2;
 $ice: #99A9BF;
 $grey: #AEB2BB;
 $stone: #858EA3;
-$rose: #C38B76; //#D28467;
+$rose: #C38B76;
 $muted-green: #958F6F;
 
 // ============================================================================
@@ -45,26 +45,36 @@ $muted-green: #958F6F;
 
 $family-sans-serif: $site-font;
 
-$grey-dark: $charcoal;//$brown;
+// Keep Bulma's black palette semantically black. Site text colors are mapped
+// explicitly below rather than repurposing black variables as theme colors.
+$black: hsl(0, 0%, 4%);
+$black-bis: hsl(0, 0%, 7%);
+$grey-dark: $charcoal;
 $grey-light: $beige-light;
-$black: $blue;//$marine-darker;
-$black-bis: $blue; //$marine-darker;
-$real-black: hsl(0, 0%, 4%);
+
+$text: $charcoal;
+$text-strong: $charcoal;
+$text-light: $warm-brown;
+$body-color: $text;
+$content-heading-color: $text-strong;
+$title-color: $text-strong;
+$subtitle-color: $text;
+$subtitle-strong-color: $text-strong;
 
 $primary: $purple;
-$link: $blue;//$marine-darker;
-$link-hover: $copper;//$pink;
+$link: $blue;
+$link-hover: $copper;
 $warning: $marine-lighter;
 $success: $neon-aqua;
 $info: $neon-aqua-light;
 
-$body-background-color: $ivory;//$beige-lighter;
+$body-background-color: $ivory;
 
 $navbar-burger-color: $purple;
-$navbar-item-color: $real-black;
-$navbar-item-hover-color: $copper;//$pink;
+$navbar-item-color: $black;
+$navbar-item-hover-color: $copper;
 
-$footer-background-color: $white;//transparent;
+$footer-background-color: $white;
 $fullhd-enabled: false;
 $size-8: 0.5rem !default;
 
