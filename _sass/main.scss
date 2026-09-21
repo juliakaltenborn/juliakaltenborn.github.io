@@ -40,8 +40,8 @@ html {
 // Homepage layout -------------------------------------------------------------
 
 .home-hero {
-  min-height: calc(100vh - 3.25rem);
-  min-height: calc(100svh - 3.25rem);
+  min-height: calc(100vh - 3.25rem + 1.25rem);
+  min-height: calc(100svh - 3.25rem + 1.25rem);
   display: flex;
   align-items: center;
   padding: 2rem 1.5rem;
@@ -62,17 +62,16 @@ html {
 }
 
 .home-text-column {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-self: center;
+  display: block;
   padding-left: 2rem;
 }
 
 .home-name-line {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.55rem;
+  margin-bottom: 0.45rem;
 }
 
 .home-name-line h1 {
@@ -80,7 +79,8 @@ html {
 }
 
 .pronoun-tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 0.12rem 0.4rem;
   border: 1px solid rgba($blue, 0.28);
   border-radius: 999px;
@@ -98,7 +98,7 @@ html {
 }
 
 .home-role-block {
-  margin: 0.25rem 0;
+  margin: 0;
 }
 
 .home-role-block p {
@@ -106,11 +106,11 @@ html {
 }
 
 .home-role-block p + p {
-  margin-top: 0.1rem;
+  margin-top: 0.08rem;
 }
 
-.home-text-column > p {
-  margin-bottom: 0 !important;
+.home-role-block + p {
+  margin-top: 1.35rem;
 }
 
 .home-portrait {
@@ -183,12 +183,13 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 0.85rem;
+  align-items: stretch;
 }
 
 .research-theme-card {
   min-width: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) 9rem;
   padding: 1.15rem 1.15rem 1.25rem;
   border: 1px solid rgba($blue, 0.18);
   border-radius: 0.3rem;
@@ -201,16 +202,12 @@ html {
   line-height: 1.25;
 }
 
-.research-card-description {
-  flex: 1 1 auto;
-}
-
 .research-card-description p {
   margin-bottom: 0 !important;
 }
 
 .selected-publications {
-  min-height: 8.4rem;
+  height: 9rem;
   margin-top: 1rem;
   padding-top: 0.8rem;
   border-top: 1px solid rgba($blue, 0.15);
@@ -426,6 +423,10 @@ a.community-item:focus {
   line-height: 1.4;
 }
 
+.community-mentorship-section {
+  margin-top: 3rem;
+}
+
 // Existing components ---------------------------------------------------------
 
 footer {
@@ -509,8 +510,12 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .research-theme-card {
+    display: block;
+  }
+
   .selected-publications {
-    min-height: 0;
+    height: auto;
   }
 }
 
@@ -520,20 +525,12 @@ footer {
     padding-bottom: 2rem;
   }
 
-  .home-text-column {
-    display: block;
-  }
-
   .home-name-line {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.45rem;
   }
 
   .home-role-block {
-    margin-bottom: 1rem;
-  }
-
-  .home-text-column > p {
-    margin-bottom: 1rem !important;
+    margin-bottom: 0;
   }
 
   .home-photo-column,

@@ -8,12 +8,13 @@
   }
 
   const finalGap = 40;
+  const collapseRate = 0.45;
   let landingBottomSpace = 0;
   let maxCollapse = 0;
   let ticking = false;
 
   function setScrollSpacing() {
-    const collapse = Math.min(maxCollapse, Math.max(0, window.scrollY));
+    const collapse = Math.min(maxCollapse, Math.max(0, window.scrollY * collapseRate));
     const currentBottomSpace = landingBottomSpace - collapse;
     hero.style.setProperty("--home-current-bottom-space", currentBottomSpace + "px");
     ticking = false;

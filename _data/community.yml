@@ -1,3 +1,10 @@
+- name: Critical Science Reading Group
+  link: https://criticalscience.github.io/
+  role: Organizing Committee
+  year: 2025–present
+  image:
+  description: A Mila reading group critically examining the values, power structures, and societal relationships that shape AI and science.
+
 - name: Polar Eclipse School
   link: https://polar-eclipse-school.github.io/
   role: Coordinator
@@ -12,12 +19,12 @@
   image: projects/ml4cryo_logo_updated.png
   description: A global research community connecting machine learning and cryospheric science.
 
-- name: Critical Science Reading Group
-  link: https://criticalscience.github.io/
-  role: Organizing Committee
-  year: 2025–present
+- name: Yellowknife Community ML Workshop
+  link:
+  role: Co-organizer
+  year: 2025
   image:
-  description: A Mila reading group critically examining the values, power structures, and societal relationships that shape AI and science.
+  description: An interactive workshop where local participants designed machine-learning projects around problems relevant to their communities.
 
 - name: AI Helps Ukraine Charity Conference
   link: https://mila.quebec/en/news/ai-helps-ukraine-charity-conference-a-look-back-on-the-in-person-event-at-mila
@@ -29,13 +36,6 @@
 - name: Unser Dialog
   link: https://unserdialog.org/
   role: Co-founder
-  year: 2020–present
+  year: 2020–2023
   image: community/unserdialog.png
   description: A civic initiative creating spaces for dialogue, learning, and public engagement.
-
-- name: Yellowknife Community ML Workshop
-  link:
-  role: Co-organizer
-  year: 2025
-  image:
-  description: An interactive workshop where local participants designed machine-learning projects around problems relevant to their communities.
