@@ -32,7 +32,7 @@
 
 - id: cryosphere
   title: Machine Learning for the Cryosphere
-  description: Problem-driven machine learning for snow and ice, grounded in field observations and the physical systems that produce the data.
+  description: Problem-driven machine learning for snow and ice, grounded in field observations and the physical systems that produce the data. (Also some non-ML papers.)
   homepage: false
   papers:
     - snowdragon

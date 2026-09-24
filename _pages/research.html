@@ -36,3 +36,8 @@ permalink: /research
     {% endfor %}
   </div>
 </section>
+
+{% assign research_page = site.texts | where: "slug", "research" | first %}
+<div class="research-outro">
+  {{ research_page.content | markdownify }}
+</div>
