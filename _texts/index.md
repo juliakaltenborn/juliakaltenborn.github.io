@@ -2,7 +2,7 @@
 slug: index
 ---
 <div class="home-role-block" markdown="1">
-PhD Candidate in Computer Science at McGill University & [Mila](https://mila.quebec/)
+PhD Candidate in Computer Science at McGill University & [Mila - Quebec AI Institute](https://mila.quebec/)
 
 Advised by [Prof. David Rolnick](https://davidrolnick.com/)
 </div>
