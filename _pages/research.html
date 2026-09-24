@@ -22,17 +22,7 @@ permalink: /research
   <h2>Research Supervision</h2>
   <div class="supervision-grid">
     {% for item in site.data.supervision %}
-      <article class="supervision-item">
-        <div class="supervision-name">{{ item.name }}</div>
-        <div class="supervision-meta">
-          {% if item.type %}{{ item.type }}{% else %}<span class="content-placeholder">Degree / role</span>{% endif %}
-          <span aria-hidden="true"> · </span>
-          {% if item.year %}{{ item.year }}{% else %}<span class="content-placeholder">Year</span>{% endif %}
-        </div>
-        <div class="supervision-topic">
-          {% if item.topic %}{{ item.topic }}{% else %}<span class="content-placeholder">Topic / project</span>{% endif %}
-        </div>
-      </article>
+      {% include supervision-item.html %}
     {% endfor %}
   </div>
 </section>

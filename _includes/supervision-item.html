@@ -1,0 +1,21 @@
+{% if item.link %}
+<a class="supervision-item" href="{{ item.link }}" target="_blank" rel="noopener">
+{% else %}
+<div class="supervision-item">
+{% endif %}
+  <div class="supervision-name">{{ item.name }}</div>
+
+  {% if item.type or item.year %}
+    <div class="supervision-meta">
+      {% if item.type %}{{ item.type }}{% endif %}{% if item.type and item.year %} · {% endif %}{% if item.year %}{{ item.year }}{% endif %}
+    </div>
+  {% endif %}
+
+  {% if item.topic %}
+    <div class="supervision-topic">{{ item.topic }}</div>
+  {% endif %}
+{% if item.link %}
+</a>
+{% else %}
+</div>
+{% endif %}
