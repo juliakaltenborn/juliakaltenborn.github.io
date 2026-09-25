@@ -5,7 +5,7 @@
       <a class="publication-title" href="{{ paper.link }}" target="_blank" rel="noopener">{{ paper.title }}</a>
       <div class="publication-authors">
         {% for author in paper.authors %}
-          {% if author == "Julia Kaltenborn" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% if author contains "Julia Kaltenborn" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </div>
       <div class="publication-venue">{{ paper.venue }} · {{ paper.year }}{% if paper.status %} · <span class="publication-status">{{ paper.status }}</span>{% endif %}</div>

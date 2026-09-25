@@ -1,6 +1,5 @@
 ---
 slug: community
-description: Julia Kaltenborn's community-building, mentorship, and public-interest work across science, the cryosphere, and ML.
 ---
 For me, community comes into being when I share a purpose with others. When we gather around a purpose, it gives us strength and belonging, and gives us the capacity to act together. Community is reciprocal at heart for me: when we genuinely participate in it, it sustains us - with purpose, belonging, strength, and resources to keep participating - and does not deplete the people who sustain it. As such, I prefer serving the Commons rather than serving the Capital.
 
