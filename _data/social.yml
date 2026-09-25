@@ -7,7 +7,7 @@
     name: fa-envelope
     type: far
 - name: Google Scholar
-  link: https://scholar.google.de/citations?user=pUAkKYsAAAAJ&hl=de&oi=ao
+  link: https://scholar.google.com/citations?user=pUAkKYsAAAAJ&hl=en&oi=ao
   icon:
     source: ai
     name: ai-google-scholar

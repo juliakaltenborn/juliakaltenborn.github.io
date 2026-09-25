@@ -31,8 +31,8 @@
     - causal-representations-workshop
 
 - id: cryosphere
-  title: Machine Learning for the Cryosphere
-  description: Problem-driven machine learning for snow and ice, grounded in field observations and the physical systems that produce the data. (Also some non-ML papers.)
+  title: Cryosphere Research
+  description: Research on snow and ice spanning problem-driven machine learning, field observations, modeling, and engineering.
   homepage: false
   papers:
     - snowdragon
