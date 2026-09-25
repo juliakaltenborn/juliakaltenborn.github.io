@@ -6,27 +6,33 @@
     source: fa
     name: fa-envelope
     type: far
+- name: Google Scholar
+  link: https://scholar.google.com/citations?user=pUAkKYsAAAAJ&hl=en&oi=ao
+  icon:
+    source: ai
+    name: ai-google-scholar
+    type: ai
+- name: ORCID
+  link: https://orcid.org/0000-0002-9292-9655
+  icon:
+    source: fa
+    name: fa-orcid
+    type: fab
 - name: GitHub
   link: https://github.com/liellnima
   icon:
     source: fa
     name: fa-github
     type: fab
-- name: Google Scholar
-  link: https://scholar.google.de/citations?user=pUAkKYsAAAAJ&hl=de&oi=ao
-  icon:
-    source: ai
-    name: ai-google-scholar
-    type: ai
-- name: LinkedIn
-  link: https://ca.linkedin.com/in/jkaltenborn
-  icon:
-    source: fa
-    name: fa-linkedin-in
-    type: fab
-- name: Twitter
-  link: https://twitter.com/JuliaKaltenborn
-  icon:
-    source: fa
-    name: fa-twitter
-    type: fab
+# - name: LinkedIn
+#   link: https://ca.linkedin.com/in/jkaltenborn
+#   icon:
+#     source: fa
+#     name: fa-linkedin-in
+#     type: fab
+# - name: Twitter
+#   link: https://twitter.com/JuliaKaltenborn
+#   icon:
+#     source: fa
+#     name: fa-twitter
+#     type: fab

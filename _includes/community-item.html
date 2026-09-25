@@ -1,0 +1,30 @@
+{% if item.link %}
+<a class="community-item" href="{{ item.link }}" target="_blank" rel="noopener">
+{% else %}
+<div class="community-item">
+{% endif %}
+  <div class="community-logo-wrap">
+    {% if item.image %}
+      <img class="community-logo" src="{{ '/assets/images/' | append: item.image | relative_url }}" alt="{{ item.name }} logo">
+    {% else %}
+      <div class="community-logo-fallback" aria-hidden="true">
+        {{ item.name | slice: 0, 1 }}
+      </div>
+    {% endif %}
+  </div>
+  <div class="community-item-text">
+    <div class="community-item-name">{{ item.name }}</div>
+    {% if item.role or item.year %}
+      <div class="community-item-meta">
+        {% if item.role %}{{ item.role }}{% endif %}{% if item.role and item.year %} · {% endif %}{% if item.year %}{{ item.year }}{% endif %}
+      </div>
+    {% endif %}
+    {% if item.description %}
+      <div class="community-item-description">{{ item.description }}</div>
+    {% endif %}
+  </div>
+{% if item.link %}
+</a>
+{% else %}
+</div>
+{% endif %}

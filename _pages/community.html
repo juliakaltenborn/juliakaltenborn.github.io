@@ -1,0 +1,24 @@
+---
+layout: page
+title: Community
+permalink: /community
+description: Julia Kaltenborn's community-building, mentorship, and public-interest work across science, the cryosphere, and ML.
+---
+
+{% assign community_page = site.texts | where: "slug", "community" | first %}
+<div class="community-intro">
+  {{ community_page.content | markdownify }}
+</div>
+
+<div class="community-grid">
+  {% for item in site.data.community %}
+    {% include community-item.html %}
+  {% endfor %}
+</div>
+
+<div style="height: 50px;"></div>
+
+<div class="community-access">
+  <h2>Mentorship and Access</h2>
+  If you come from a background that is underrepresented in academia, or have had less access to academic networks and their unwritten rules, please feel welcome to reach out. I am happy to share what I know and offer practical support with applications, motivation letters and statements, or navigating academic pathways.
+</div>

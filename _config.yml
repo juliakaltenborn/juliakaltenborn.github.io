@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Julia Kaltenborn
-tagline: Machine learning for climate modeling & cryospheric sciences
+tagline: Scientific machine learning for Earth system science and the cryosphere
 email: julia.kaltenborn@mail.mcgill.ca
 twitter_username: JuliaKaltenborn
 github_username:  liellnima
-description: Julia Kaltenborn is a PhD student at McGill University & Mila - Quebec AI Institute under the supervision of Prof. David Rolnick. She uses ML for climate modeling and cryospheric sciences. She loves snow and ice and wants to protect the polar regions of our Earth.
+description: Julia Kaltenborn is a PhD candidate in Computer Science at McGill University and Mila, developing scientific machine learning methods for Earth system science and the cryosphere.
 author: Julia Kaltenborn
 url: https://juliakaltenborn.github.io
 logo: /assets/images/favicon.png
@@ -30,42 +30,8 @@ include:
 
 # Collections
 collections:
-  news:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
-  fieldwork:
-    output: true
-    permalink: /:collection/:path/
-  volunteering:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "fieldwork"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "volunteering"
-    values:
-      layout: "page"
-
+  texts:
+    output: false
 
 # Build settings
 markdown: kramdown

@@ -1,16 +1,40 @@
 ---
 layout: main
-title: Home
+title: Julia Kaltenborn
 ---
-<div class="columns is-vcentered">
-      <div class="column is-one-third content">
-        <figure class="image">
-          <img src="/assets/images/julia/bio_pic.jpg">
+<section class="home-hero">
+  <div class="container">
+    <div class="columns is-vcentered home-intro">
+      <div class="column is-one-third home-photo-column">
+        <figure class="home-portrait">
+          <div class="image">
+            <img src="/assets/images/julia/bio_pic.jpg" alt="Julia Kaltenborn on the Juneau Icefield">
+          </div>
+          <figcaption class="home-photo-caption">
+            Juneau Icefield Research Program, Camp 10, 2023 - learning from nature in nature.
+          </figcaption>
         </figure>
       </div>
-      <div class="column is-two-thirds content">
-        <h1>{{ site.title }}</h1>
-        {% capture description %}{% include description.md %}{% endcapture %}
-        {{ description | markdownify }}
+      <div class="column is-two-thirds content home-text-column">
+        <div class="home-name-line">
+          <h1>{{ site.title }}</h1>
+          <a class="pronoun-tag" href="https://pronouns.org/she-her" target="_blank" rel="noopener">she/her</a>
+        </div>
+        {% assign index_page = site.texts | where: "slug", "index" | first %}
+        {{ index_page.content | markdownify }}
+      </div>
+    </div>
   </div>
-</div>
+</section>
+
+<section class="section home-content">
+  <div class="container">
+    <div class="content">
+      {% include selected-research.html %}
+      {% assign description_page = site.texts | where: "slug", "description" | first %}
+      {{ description_page.content | markdownify }}
+    </div>
+  </div>
+</section>
+
+<script defer src="{{ '/assets/js/home-scroll-collapse.js' | relative_url }}"></script>

@@ -1,0 +1,172 @@
+- id: snowgalileo
+  title: "SnowGalileo: A Pre-trained Earth Observation Transformer for Daily, 100 m Fractional Snow Cover Mapping"
+  authors:
+    - Marlena Reil*
+    - Julia Kaltenborn*
+    - Donovan J. M. Allum
+    - Francis Pelletier
+    - Sebastian Roessler
+    - Samip Shrestha
+    - Zhibang Lv
+    - John Truckenbrodt
+    - Gabriele Schwaizer
+    - Thomas Nagler
+    - John W. Pomeroy
+    - Christopher B. Marsh
+    - Benoit Montpetit
+    - Tobias Jonas
+    - Gabriel Tseng
+    - David Rolnick
+    - Andreas J. Dietz
+    - Celia A. Baumhoer
+  year: 2026
+  venue: "EGUsphere preprint (submitted to The Cryosphere)"
+  status: under review
+  group: observations
+  link: "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3833/"
+  homepage_author_count: 2
+  homepage_venue: "2026"
+
+- id: arches-climate-ssp
+  title: "Emulating the Forced Response of Climate Models with Generative Machine Learning"
+  authors:
+    - Graham Clyne
+    - Julia Kaltenborn
+    - Peer Nowack
+    - Claire Monteleoni
+    - Anastase Alexandre Charantonis
+  year: 2026
+  venue: "arXiv preprint"
+  status: under review
+  group: emulation
+  link: "https://arxiv.org/abs/2605.16929"
+  homepage_author_count: 2
+  homepage_venue: "2026"
+
+- id: cdsd
+  title: "Learning a Spatial Partitioning and its Causal Relations from Temporal Data"
+  authors:
+    - Philippe Brouillard
+    - Sébastien Lachapelle
+    - Julia Kaltenborn
+    - Yaniv Gurwicz
+    - Dhanya Sridhar
+    - Alexandre Drouin
+    - Peer Nowack
+    - Jakob Runge
+    - David Rolnick
+  year: 2026
+  venue: "Conference on Causal Learning and Reasoning (CLeaR)"
+  group: interrogation
+  link: "https://proceedings.mlr.press/v323/brouillard26a.html"
+  homepage_author_count: 3
+  homepage_venue: "CLeaR 2026"
+
+- id: ogives
+  title: "Wavering Ways Waves Work: Understanding glacier ogive formation using satellite and field observations combined with modelling"
+  authors:
+    - Naomi Ochwat
+    - Yoram Terleth
+    - Robert S. Anderson
+    - Alison Banwell
+    - Martin Truffer
+    - Cal Hobson
+    - Sydney Bidwell
+    - Emma Neuhauser
+    - Julia Kaltenborn
+  year: 2026
+  venue: "Submitted to the Journal of Glaciology"
+  status: under review
+  group: cryosphere
+  link: "https://meetingorganizer.copernicus.org/EGU26/EGU26-6984.html"
+
+- id: picabu
+  title: "Causal Climate Emulation with Bayesian Filtering"
+  authors:
+    - Sebastian H. M. Hickman
+    - Ilija Trajković
+    - Julia Kaltenborn
+    - Francis Pelletier
+    - Alex Archibald
+    - Yaniv Gurwicz
+    - Peer Nowack
+    - David Rolnick
+    - Julien Boussard
+  year: 2025
+  venue: "NeurIPS"
+  group: interrogation
+  link: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/81289d2fd2f9072fc293a2848d751475-Abstract-Conference.html"
+  homepage_author_count: 3
+  homepage_venue: "NeurIPS 2025"
+
+- id: snow-sound-pen
+  title: "Acoustic Snow Stratigraphy Measurements - From the Sound of Breaking Snow Towards Enhanced Snowpack Stability Assessment"
+  authors:
+    - Tiziano Di Pietro
+    - Julia Kaltenborn
+    - Sophia Groninger
+    - Christoph Mitterer
+    - Martin Schneebeli
+  year: 2024
+  venue: "International Snow Science Workshop (ISSW)"
+  group: cryosphere
+  link: "https://arc.lib.montana.edu/snow-science/item/3269"
+
+- id: climateset
+  title: "ClimateSet: A Large-Scale Climate Model Dataset for Machine Learning"
+  authors:
+    - Julia Kaltenborn
+    - Charlotte E. E. Lange
+    - Venkatesh Ramesh
+    - Philippe Brouillard
+    - Yaniv Gurwicz
+    - Chandni Nagda
+    - Jakob Runge
+    - Peer Nowack
+    - David Rolnick
+  year: 2023
+  venue: "NeurIPS Datasets and Benchmarks Track"
+  group: emulation
+  link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/44a6769fe6c695f8dfb347c649f7c9f0-Abstract.html"
+  homepage_author_count: 2
+  homepage_venue: "NeurIPS 2023"
+
+- id: causal-representations-workshop
+  title: "Towards Causal Representations of Climate Model Data"
+  authors:
+    - Julien Boussard
+    - Chandni Nagda
+    - Julia Kaltenborn
+    - Charlotte Emilie Elektra Lange
+    - Philippe Brouillard
+    - Yaniv Gurwicz
+    - Peer Nowack
+    - David Rolnick
+  year: 2023
+  venue: "NeurIPS Workshop on Tackling Climate Change with Machine Learning"
+  group: interrogation
+  link: "https://www.climatechange.ai/papers/neurips2023/81"
+
+- id: snowdragon
+  title: "Automatic snow type classification of snow micropenetrometer profiles with machine learning algorithms"
+  authors:
+    - Julia Kaltenborn
+    - Amy R. Macfarlane
+    - Viviane Clay
+    - Martin Schneebeli
+  year: 2023
+  venue: "Geoscientific Model Development"
+  group: cryosphere
+  link: "https://gmd.copernicus.org/articles/16/4521/2023/"
+
+- id: snow-stratigraphy-workshop
+  title: "Machine Learning for Snow Stratigraphy Classification"
+  authors:
+    - Julia Kaltenborn
+    - Viviane Clay
+    - Amy R. Macfarlane
+    - Martin Schneebeli
+  year: 2021
+  venue: "NeurIPS Workshop on Tackling Climate Change with Machine Learning"
+  group: cryosphere
+  link: "https://www.climatechange.ai/papers/neurips2021/48"
